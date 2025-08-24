@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stars - Cosmic Observatory</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">
+                        <i class="fas fa-star me-3"></i>Stars
+                    </h1>
+                    <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        Discover the cosmic furnaces that light up the universe and forge the elements of life
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Star Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h2><i class="fas fa-info-circle me-2 text-cosmic"></i>What are Stars?</h2>
+                        <p>Stars are massive, luminous spheres of plasma held together by their own gravity. They are the fundamental building blocks of galaxies and the cosmic furnaces where most elements heavier than hydrogen and helium are forged. Through nuclear fusion in their cores, stars convert hydrogen into helium, releasing tremendous amounts of energy that we see as light and heat.</p>
+                        <p>The universe's stars range dramatically in brightness, size, color, and behavior. Some types evolve quickly over millions of years, while others remain relatively unchanged for trillions of years. Understanding stellar evolution helps us comprehend the past, present, and future of our universe.</p>
+                        
+                        <div class="mt-4">
+                            <span class="data-badge">400+ billion stars in Milky Way</span>
+                            <span class="data-badge">Nuclear fusion powers stars</span>
+                            <span class="data-badge">Elements forged in stellar cores</span>
+                            <span class="data-badge">Lifespans: millions to trillions of years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stellar Classification -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Stellar Classification</h2>
+                    <p class="section-subtitle">Understanding the different types of stars and their characteristics</p>
+                </div>
+            </div>
+            
+            <!-- Main Sequence Stars -->
+            <div class="row mb-5">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-star me-2 text-cosmic"></i>Main Sequence Stars</h3>
+                        <p>Main sequence stars represent the most common and stable phase of stellar evolution. These stars are actively fusing hydrogen into helium in their cores, creating the energy that makes them shine. This process creates pressure that balances the inward pull of gravity, maintaining the star's structure.</p>
+                        
+                        <h5>Formation Process:</h5>
+                        <p>A star forms from a clump of dust and gas in a stellar nursery. Over hundreds of thousands of years, the clump gains mass, starts to spin, and heats up. When the core temperature reaches millions of degrees, nuclear fusion begins, and a star is born.</p>
+                        
+                        <h5>Characteristics:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">90% of all stars</span>
+                            <span class="data-badge">0.1 to 200 solar masses</span>
+                            <span class="data-badge">Millions to billions of years lifespan</span>
+                            <span class="data-badge">Hydrogen → Helium fusion</span>
+                        </div>
+                        
+                        <h5>Notable Examples:</h5>
+                        <p><strong>Sirius:</strong> The brightest star in the night sky, located in Canis Major constellation.</p>
+                        <p><strong>Alpha Centauri:</strong> The closest main sequence star system to Earth at 4.37 light-years away.</p>
+                        <p><strong>The Sun:</strong> Our own star, a G-type main sequence star with a surface temperature of 5,778 K.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="chart-container">
+                        <h5>Stellar Mass Distribution</h5>
+                        <canvas id="stellarMassChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Red Giants -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #e17055;"></i>Red Giants</h3>
+                        <p>When a main sequence star less than eight times the Sun's mass exhausts the hydrogen in its core, it begins to evolve into a red giant. The core contracts and heats up, while the outer layers expand dramatically.</p>
+                        
+                        <h5>Evolution Process:</h5>
+                        <p>As the core runs out of hydrogen, it starts to collapse. The increased temperature and pressure cause helium to begin fusing into carbon. Hydrogen fusion moves to the star's outer layers, causing massive expansion.</p>
+                        
+                        <h5>Characteristics:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">100-1000x larger than main sequence</span>
+                            <span class="data-badge">Cooler surface temperature</span>
+                            <span class="data-badge">Orange-red appearance</span>
+                            <span class="data-badge">Unstable, pulsating</span>
+                        </div>
+                        
+                        <h5>Final Fate:</h5>
+                        <p>Red giants eventually shed their outer layers, creating planetary nebulae. The remaining core becomes a white dwarf. Our Sun will become a red giant in about 5 billion years.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Famous Red Giants</h4>
+                        <div class="star-list">
+                            <div class="star-item mb-3">
+                                <h6>Arcturus</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 36.7 ly</span>
+                                    <span class="data-badge">Mass: 1.08 solar masses</span>
+                                </div>
+                                <p class="small">Fourth brightest star in the night sky, located in Boötes constellation.</p>
+                            </div>
+                            <div class="star-item mb-3">
+                                <h6>Aldebaran</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 65.3 ly</span>
+                                    <span class="data-badge">Diameter: 44.2 solar diameters</span>
+                                </div>
+                                <p class="small">Orange giant star in Taurus, often called the "Eye of the Bull."</p>
+                            </div>
+                            <div class="star-item">
+                                <h6>Gamma Crucis</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 88 ly</span>
+                                    <span class="data-badge">Luminosity: 1,500 solar luminosities</span>
+                                </div>
+                                <p class="small">Red giant in the Southern Cross constellation, visible from the Southern Hemisphere.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- White Dwarfs -->
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #74b9ff;"></i>White Dwarfs</h3>
+                        <p>After a red giant sheds its outer atmosphere, only the core remains as a white dwarf. These stellar remnants are incredibly dense objects about the size of Earth but with hundreds of thousands of times more mass.</p>
+                        
+                        <h5>Properties:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Earth-sized</span>
+                            <span class="data-badge">0.6 solar masses average</span>
+                            <span class="data-badge">Extremely dense</span>
+                            <span class="data-badge">No nuclear fusion</span>
+                        </div>
+                        
+                        <h5>Density:</h5>
+                        <p>A teaspoon of white dwarf material would weigh more than a pickup truck. This incredible density is the result of electron degeneracy pressure supporting the star against gravitational collapse.</p>
+                        
+                        <h5>Cooling Process:</h5>
+                        <p>White dwarfs produce no new heat and gradually cool over billions of years. Despite their name, they can emit light ranging from blue-white to red as they cool.</p>
+                        
+                        <h5>Future of the Sun:</h5>
+                        <p>In about 10 billion years, after its red giant phase, our Sun will become a white dwarf.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>White Dwarf Examples</h4>
+                        <div class="star-list">
+                            <div class="star-item mb-3">
+                                <h6>Sirius B</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 8.6 ly</span>
+                                    <span class="data-badge">Mass: 0.98 solar masses</span>
+                                </div>
+                                <p class="small">Companion to Sirius A, one of the nearest white dwarfs to Earth.</p>
+                            </div>
+                            <div class="star-item mb-3">
+                                <h6>Procyon B</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 11.5 ly</span>
+                                    <span class="data-badge">Temperature: 7,740 K</span>
+                                </div>
+                                <p class="small">White dwarf companion to Procyon A in Canis Minor constellation.</p>
+                            </div>
+                            <div class="star-item">
+                                <h6>40 Eridani B</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 16.3 ly</span>
+                                    <span class="data-badge">Age: 1.2 billion years</span>
+                                </div>
+                                <p class="small">One of the first white dwarfs discovered, part of a triple star system.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extreme Stars -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Extreme Stellar Objects</h2>
+                    <p class="section-subtitle">The most exotic and extreme stars in the universe</p>
+                </div>
+            </div>
+            
+            <!-- Neutron Stars -->
+            <div class="row mb-5">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-dot-circle me-2 text-cosmic"></i>Neutron Stars</h3>
+                        <p>Neutron stars are the collapsed cores of massive stars that have undergone supernova explosions. They pack more mass than the Sun into a sphere about as wide as Manhattan Island, making them the densest objects in the universe except for black holes.</p>
+                        
+                        <h5>Formation:</h5>
+                        <p>When a star with 8-20 times the Sun's mass exhausts its nuclear fuel, it undergoes core collapse. The core rebounds, creating a supernova explosion that leaves behind a neutron star.</p>
+                        
+                        <h5>Properties:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">1.4 solar masses</span>
+                            <span class="data-badge">20 km diameter</span>
+                            <span class="data-badge">10^15 g/cm³ density</span>
+                            <span class="data-badge">10^12 gauss magnetic field</span>
+                        </div>
+                        
+                        <h5>Special Types:</h5>
+                        <p><strong>Pulsars:</strong> Rapidly rotating neutron stars with beams of radiation that sweep across space like lighthouse beams. Some spin faster than blender blades.</p>
+                        <p><strong>Magnetars:</strong> Neutron stars with magnetic fields up to 1,000 times stronger than typical neutron stars - the strongest magnetic fields in the universe.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Neutron Star Facts</h4>
+                        <div class="fact-list">
+                            <div class="fact-item mb-3">
+                                <h6>Incredible Density</h6>
+                                <p class="small">A sugar cube of neutron star material would weigh about 1 billion tons on Earth.</p>
+                            </div>
+                            <div class="fact-item mb-3">
+                                <h6>Rapid Rotation</h6>
+                                <p class="small">The fastest-spinning pulsar rotates 716 times per second.</p>
+                            </div>
+                            <div class="fact-item mb-3">
+                                <h6>Precise Timing</h6>
+                                <p class="small">Pulsar timing is so precise it rivals atomic clocks in accuracy.</p>
+                            </div>
+                            <div class="fact-item">
+                                <h6>Gravitational Waves</h6>
+                                <p class="small">Merging neutron stars create gravitational waves detectable on Earth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Red Dwarfs -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #fd79a8;"></i>Red Dwarfs</h3>
+                        <p>Red dwarfs are the smallest and coolest main sequence stars, making up about 75% of all stars in the Milky Way. Despite their name, they appear more orange than red and have incredibly long lifespans.</p>
+                        
+                        <h5>Characteristics:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">0.08-0.5 solar masses</span>
+                            <span class="data-badge">2,500-4,000 K temperature</span>
+                            <span class="data-badge">Up to 14 trillion year lifespan</span>
+                            <span class="data-badge">75% of Milky Way stars</span>
+                        </div>
+                        
+                        <h5>Unique Properties:</h5>
+                        <p>Red dwarfs have convective cores that constantly churn their material, allowing them to burn through their entire hydrogen supply over trillions of years without changing their internal structure.</p>
+                        
+                        <h5>Longevity:</h5>
+                        <p>Some low-mass red dwarfs have lifespans longer than the current age of the universe. They will continue shining long after more massive stars have died.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Notable Red Dwarfs</h4>
+                        <div class="star-list">
+                            <div class="star-item mb-3">
+                                <h6>Proxima Centauri</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 4.24 ly</span>
+                                    <span class="data-badge">Mass: 0.12 solar masses</span>
+                                </div>
+                                <p class="small">Closest star to the Sun, hosts potentially habitable exoplanet Proxima b.</p>
+                            </div>
+                            <div class="star-item mb-3">
+                                <h6>Barnard's Star</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 5.96 ly</span>
+                                    <span class="data-badge">Age: 7-12 billion years</span>
+                                </div>
+                                <p class="small">High proper motion star, moving rapidly across the sky.</p>
+                            </div>
+                            <div class="star-item">
+                                <h6>Wolf 359</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 7.86 ly</span>
+                                    <span class="data-badge">Luminosity: 0.001 solar</span>
+                                </div>
+                                <p class="small">One of the faintest and lowest-mass stars known.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Brown Dwarfs -->
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #a29bfe;"></i>Brown Dwarfs</h3>
+                        <p>Brown dwarfs are substellar objects that bridge the gap between planets and stars. They're more massive than planets but not quite massive enough to sustain hydrogen fusion like true stars.</p>
+                        
+                        <h5>Mass Range:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">13-80 Jupiter masses</span>
+                            <span class="data-badge">Failed stars</span>
+                            <span class="data-badge">Infrared emission</span>
+                            <span class="data-badge">No visible light</span>
+                        </div>
+                        
+                        <h5>Formation:</h5>
+                        <p>Some brown dwarfs form like stars from collapsing gas clouds but never gain enough mass for sustained fusion. Others may form like planets in disks around stars.</p>
+                        
+                        <h5>Detection:</h5>
+                        <p>Brown dwarfs are invisible to optical telescopes but can be detected in infrared light due to their heat emission from gravitational contraction.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Brown Dwarf Examples</h4>
+                        <div class="star-list">
+                            <div class="star-item mb-3">
+                                <h6>Gliese 229B</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 18.8 ly</span>
+                                    <span class="data-badge">Mass: 20-50 Jupiter masses</span>
+                                </div>
+                                <p class="small">One of the first confirmed brown dwarfs, orbits the red dwarf Gliese 229A.</p>
+                            </div>
+                            <div class="star-item mb-3">
+                                <h6>Teide 1</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 430 ly</span>
+                                    <span class="data-badge">Age: 120 million years</span>
+                                </div>
+                                <p class="small">First brown dwarf confirmed in the Pleiades star cluster.</p>
+                            </div>
+                            <div class="star-item">
+                                <h6>WISE J085510.83-071442.5</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 7.27 ly</span>
+                                    <span class="data-badge">Temperature: 225-260 K</span>
+                                </div>
+                                <p class="small">One of the coldest brown dwarfs known, colder than the North Pole.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stellar Evolution -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Stellar Evolution</h2>
+                    <p class="section-subtitle">The life cycle of stars from birth to death</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h3><i class="fas fa-history me-2 text-cosmic"></i>The Stellar Life Cycle</h3>
+                        
+                        <div class="evolution-timeline">
+                            <div class="evolution-stage mb-4">
+                                <h5>1. Stellar Nursery</h5>
+                                <p>Stars begin as dense clumps in molecular clouds of gas and dust. Gravity causes these clumps to collapse and heat up over hundreds of thousands of years.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Molecular clouds</span>
+                                    <span class="data-badge">Gravitational collapse</span>
+                                    <span class="data-badge">Protostar formation</span>
+                                </div>
+                            </div>
+                            
+                            <div class="evolution-stage mb-4">
+                                <h5>2. Main Sequence</h5>
+                                <p>When core temperature reaches 10 million K, hydrogen fusion begins. The star enters its longest and most stable phase, lasting millions to billions of years.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Hydrogen fusion</span>
+                                    <span class="data-badge">Hydrostatic equilibrium</span>
+                                    <span class="data-badge">Stable energy output</span>
+                                </div>
+                            </div>
+                            
+                            <div class="evolution-stage mb-4">
+                                <h5>3. Post-Main Sequence Evolution</h5>
+                                <p>When hydrogen is exhausted in the core, the star's evolution depends on its mass:</p>
+                                
+                                <div class="row mt-3">
+                                    <div class="col-md-6">
+                                        <h6>Low-Mass Stars (< 8 solar masses)</h6>
+                                        <p>Red Giant → Planetary Nebula → White Dwarf</p>
+                                        <div class="mb-2">
+                                            <span class="data-badge">Helium flash</span>
+                                            <span class="data-badge">Mass loss</span>
+                                            <span class="data-badge">Cooling remnant</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>High-Mass Stars (> 8 solar masses)</h6>
+                                        <p>Supergiant → Supernova → Neutron Star or Black Hole</p>
+                                        <div class="mb-2">
+                                            <span class="data-badge">Core collapse</span>
+                                            <span class="data-badge">Explosive death</span>
+                                            <span class="data-badge">Compact remnant</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tools -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Interactive Stellar Tools</h2>
+                    <p class="section-subtitle">Explore stellar properties and relationships</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="chart-container">
+                        <h4>Stellar Luminosity vs Temperature</h4>
+                        <canvas id="hrDiagram"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="chart-container">
+                        <h4>Stellar Lifespan Calculator</h4>
+                        <div id="lifespanCalculator">
+                            <div class="mb-3">
+                                <label for="stellarMass" class="form-label">Stellar Mass (Solar Masses)</label>
+                                <input type="range" class="form-range" id="stellarMass" min="0.1" max="50" step="0.1" value="1">
+                                <div class="d-flex justify-content-between">
+                                    <span>0.1</span>
+                                    <span id="massValue">1.0</span>
+                                    <span>50</span>
+                                </div>
+                            </div>
+                            <div class="result-display">
+                                <h6>Estimated Lifespan:</h6>
+                                <div id="lifespanResult" class="data-badge">10 billion years</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h4>Stellar Size Comparison</h4>
+                        <div id="stellarSizeComparison" class="text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="galaxies.html">Galaxies</a></li>
+                        <li><a href="stars.html">Stars</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="nebulae.html">Nebulae</a></li>
+                        <li><a href="asteroids.html">Asteroids</a></li>
+                        <li><a href="cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="exploration.html">Space Exploration</a></li>
+                        <li><a href="../index.html#timeline">Timeline</a></li>
+                        <li><a href="../index.html#features">Features</a></li>
+                        <li><a href="../index.html#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // HR Diagram (simplified)
+            const hrCtx = document.getElementById('hrDiagram');
+            if (hrCtx) {
+                new Chart(hrCtx, {
+                    type: 'scatter',
+                    data: {
+                        datasets: [{
+                            label: 'Main Sequence',
+                            data: [
+                                {x: 3000, y: 0.001, r: 5},
+                                {x: 4000, y: 0.1, r: 7},
+                                {x: 5778, y: 1, r: 10},
+                                {x: 7000, y: 10, r: 12},
+                                {x: 10000, y: 100, r: 15}
+                            ],
+                            backgroundColor: 'rgba(108, 92, 231, 0.6)'
+                        }, {
+                            label: 'Red Giants',
+                            data: [
+                                {x: 3500, y: 100, r: 20},
+                                {x: 4000, y: 1000, r: 25}
+                            ],
+                            backgroundColor: 'rgba(253, 121, 168, 0.6)'
+                        }, {
+                            label: 'White Dwarfs',
+                            data: [
+                                {x: 8000, y: 0.01, r: 3},
+                                {x: 12000, y: 0.1, r: 4}
+                            ],
+                            backgroundColor: 'rgba(116, 185, 255, 0.6)'
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                labels: { color: '#ffffff' }
+                            }
+                        },
+                        scales: {
+                            x: {
+                                type: 'logarithmic',
+                                title: {
+                                    display: true,
+                                    text: 'Temperature (K)',
+                                    color: '#b2bec3'
+                                },
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            },
+                            y: {
+                                type: 'logarithmic',
+                                title: {
+                                    display: true,
+                                    text: 'Luminosity (Solar)',
+                                    color: '#b2bec3'
+                                },
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            }
+                        }
+                    }
+                });
+            }
+            
+            // Stellar lifespan calculator
+            const massSlider = document.getElementById('stellarMass');
+            const massValue = document.getElementById('massValue');
+            const lifespanResult = document.getElementById('lifespanResult');
+            
+            if (massSlider && massValue && lifespanResult) {
+                massSlider.addEventListener('input', function() {
+                    const mass = parseFloat(this.value);
+                    massValue.textContent = mass.toFixed(1);
+                    
+                    // Simplified mass-luminosity relation: L ∝ M^3.5
+                    // Lifespan ∝ M/L ∝ M^-2.5
+                    const lifespan = 10 * Math.pow(mass, -2.5); // billion years
+                    
+                    let lifespanText;
+                    if (lifespan > 1000) {
+                        lifespanText = `${(lifespan/1000).toFixed(1)} trillion years`;
+                    } else if (lifespan > 1) {
+                        lifespanText = `${lifespan.toFixed(1)} billion years`;
+                    } else {
+                        lifespanText = `${(lifespan * 1000).toFixed(0)} million years`;
+                    }
+                    
+                    lifespanResult.textContent = lifespanText;
+                });
+            }
+            
+            // Stellar size comparison
+            const sizeContainer = document.getElementById('stellarSizeComparison');
+            if (sizeContainer) {
+                const stars = [
+                    { name: 'Red Dwarf', size: 0.5, color: '#fd79a8' },
+                    { name: 'Sun', size: 1, color: '#fdcb6e' },
+                    { name: 'Red Giant', size: 50, color: '#e17055' },
+                    { name: 'Blue Supergiant', size: 20, color: '#74b9ff' },
+                    { name: 'Neutron Star', size: 0.00001, color: '#a29bfe' }
+                ];
+                
+                stars.forEach(star => {
+                    const element = document.createElement('div');
+                    element.style.cssText = `
+                        display: inline-block;
+                        margin: 20px;
+                        text-align: center;
+                        cursor: pointer;
+                        transition: transform 0.3s ease;
+                    `;
+                    
+                    const circle = document.createElement('div');
+                    const baseSize = 30;
+                    let size = baseSize * Math.log(star.size * 10 + 1);
+                    if (star.name === 'Neutron Star') size = 5; // Special case for neutron stars
+                    
+                    circle.style.cssText = `
+                        width: ${size}px;
+                        height: ${size}px;
+                        background: ${star.color};
+                        border-radius: 50%;
+                        margin: 0 auto 10px;
+                        box-shadow: 0 0 20px ${star.color}50;
+                    `;
+                    
+                    const label = document.createElement('div');
+                    label.textContent = star.name;
+                    label.style.cssText = `
+                        color: #ffffff;
+                        font-size: 12px;
+                        font-weight: 600;
+                    `;
+                    
+                    element.appendChild(circle);
+                    element.appendChild(label);
+                    
+                    element.addEventListener('mouseenter', () => {
+                        element.style.transform = 'scale(1.1)';
+                        circle.style.boxShadow = `0 0 30px ${star.color}`;
+                    });
+                    
+                    element.addEventListener('mouseleave', () => {
+                        element.style.transform = 'scale(1)';
+                        circle.style.boxShadow = `0 0 20px ${star.color}50`;
+                    });
+                    
+                    sizeContainer.appendChild(element);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+

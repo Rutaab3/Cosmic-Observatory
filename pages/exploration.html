@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Exploration - Cosmic Observatory</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">
+                        <i class="fas fa-satellite me-3"></i>Space Exploration
+                    </h1>
+                    <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        Humanity's greatest adventure: exploring the cosmos and pushing the boundaries of knowledge
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Space Exploration Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h2><i class="fas fa-info-circle me-2 text-cosmic"></i>The Quest to Explore</h2>
+                        <p>Space exploration represents humanity's greatest adventure, driven by curiosity, scientific discovery, and the desire to understand our place in the universe. From the first artificial satellites to missions exploring the outer planets and beyond, we have transformed from Earth-bound creatures to a spacefaring species.</p>
+                        <p>This journey has not only expanded our knowledge of the cosmos but has also led to countless technological innovations that benefit life on Earth, from GPS and weather forecasting to medical devices and materials science.</p>
+                        
+                        <div class="mt-4">
+                            <span class="data-badge">67 years of space age</span>
+                            <span class="data-badge">500+ people in space</span>
+                            <span class="data-badge">Thousands of missions</span>
+                            <span class="data-badge">Interplanetary exploration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historical Milestones -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Historic Milestones</h2>
+                    <p class="section-subtitle">Key achievements that shaped space exploration</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h3><i class="fas fa-history me-2 text-cosmic"></i>Timeline of Space Exploration</h3>
+                        
+                        <div class="timeline-container">
+                            <div class="timeline-item mb-4">
+                                <h5>1957: Sputnik 1</h5>
+                                <p>The Soviet Union launched the first artificial satellite, beginning the Space Age and demonstrating that space travel was possible.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">First satellite</span>
+                                    <span class="data-badge">Soviet Union</span>
+                                    <span class="data-badge">Space Age begins</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>1961: First Human in Space</h5>
+                                <p>Yuri Gagarin became the first human to orbit Earth aboard Vostok 1, proving that humans could survive and work in space.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Yuri Gagarin</span>
+                                    <span class="data-badge">108 minutes</span>
+                                    <span class="data-badge">Human spaceflight</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>1969: Moon Landing</h5>
+                                <p>Apollo 11 achieved humanity's greatest space exploration milestone when Neil Armstrong and Buzz Aldrin walked on the Moon.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Apollo 11</span>
+                                    <span class="data-badge">Neil Armstrong</span>
+                                    <span class="data-badge">First Moon landing</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>1977: Voyager Missions</h5>
+                                <p>Voyager 1 and 2 launched to explore the outer solar system, providing unprecedented views of Jupiter, Saturn, Uranus, and Neptune.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Grand Tour</span>
+                                    <span class="data-badge">Outer planets</span>
+                                    <span class="data-badge">Interstellar space</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>1990: Hubble Space Telescope</h5>
+                                <p>The launch of Hubble revolutionized astronomy, providing crystal-clear images of distant galaxies and helping determine the universe's age and expansion rate.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Space telescope</span>
+                                    <span class="data-badge">Deep space imaging</span>
+                                    <span class="data-badge">30+ years operation</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h5>2021: James Webb Space Telescope</h5>
+                                <p>The most powerful space telescope ever built, designed to observe the first galaxies and study exoplanet atmospheres in unprecedented detail.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Infrared telescope</span>
+                                    <span class="data-badge">Early universe</span>
+                                    <span class="data-badge">Exoplanet science</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Missions -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Current Missions</h2>
+                    <p class="section-subtitle">Active space missions exploring the solar system and beyond</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-satellite-dish me-2 text-cosmic"></i>Robotic Explorers</h3>
+                        
+                        <div class="mission-item mb-4">
+                            <h5>Mars Perseverance Rover</h5>
+                            <p>Searching for signs of ancient microbial life on Mars while collecting samples for future return to Earth. Includes the Ingenuity helicopter, the first powered flight on another planet.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Mars exploration</span>
+                                <span class="data-badge">Sample collection</span>
+                                <span class="data-badge">Astrobiology</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-item mb-4">
+                            <h5>Parker Solar Probe</h5>
+                            <p>Flying closer to the Sun than any previous spacecraft, studying the solar corona and solar wind to understand space weather and stellar physics.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Solar exploration</span>
+                                <span class="data-badge">Extreme conditions</span>
+                                <span class="data-badge">Space weather</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-item">
+                            <h5>Europa Clipper</h5>
+                            <p>Launching in 2024 to study Jupiter's moon Europa, investigating its subsurface ocean and potential for harboring life.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Jupiter system</span>
+                                <span class="data-badge">Ocean worlds</span>
+                                <span class="data-badge">Astrobiology</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-users me-2 text-cosmic"></i>Human Spaceflight</h3>
+                        
+                        <div class="mission-item mb-4">
+                            <h5>International Space Station</h5>
+                            <p>A continuously inhabited laboratory in low Earth orbit, conducting scientific research and serving as a testbed for future deep space missions.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Continuous operation</span>
+                                <span class="data-badge">International cooperation</span>
+                                <span class="data-badge">Scientific research</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-item mb-4">
+                            <h5>Artemis Program</h5>
+                            <p>NASA's program to return humans to the Moon by 2026, establishing a sustainable lunar presence and preparing for Mars exploration.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Moon return</span>
+                                <span class="data-badge">Sustainable presence</span>
+                                <span class="data-badge">Mars preparation</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-item">
+                            <h5>Commercial Spaceflight</h5>
+                            <p>Private companies like SpaceX, Blue Origin, and Virgin Galactic are revolutionizing access to space with reusable rockets and space tourism.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Private industry</span>
+                                <span class="data-badge">Reusable rockets</span>
+                                <span class="data-badge">Space tourism</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Missions -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Future of Space Exploration</h2>
+                    <p class="section-subtitle">Ambitious missions and technologies that will shape the next era of space exploration</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-rocket me-2 text-cosmic"></i>Next-Generation Missions</h3>
+                        
+                        <div class="future-mission mb-4">
+                            <h5>Mars Sample Return (2030s)</h5>
+                            <p>A joint NASA-ESA mission to bring Martian samples collected by Perseverance back to Earth for detailed analysis in terrestrial laboratories.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Sample return</span>
+                                <span class="data-badge">International cooperation</span>
+                                <span class="data-badge">Life detection</span>
+                            </div>
+                        </div>
+                        
+                        <div class="future-mission mb-4">
+                            <h5>Human Mars Mission (2030s-2040s)</h5>
+                            <p>The ultimate goal of human space exploration: sending astronauts to Mars for extended stays and eventual colonization.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Human exploration</span>
+                                <span class="data-badge">Long-duration missions</span>
+                                <span class="data-badge">Planetary protection</span>
+                            </div>
+                        </div>
+                        
+                        <div class="future-mission mb-4">
+                            <h5>Interstellar Probes</h5>
+                            <p>Breakthrough Starshot and similar projects aim to send tiny probes to nearby star systems using light sails and powerful lasers.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Interstellar travel</span>
+                                <span class="data-badge">Light sail technology</span>
+                                <span class="data-badge">Proxima Centauri</span>
+                            </div>
+                        </div>
+                        
+                        <div class="future-mission">
+                            <h5>Space-Based Telescopes</h5>
+                            <p>Next-generation telescopes like the Nancy Grace Roman Space Telescope and proposed concepts for even larger space observatories.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Dark energy research</span>
+                                <span class="data-badge">Exoplanet imaging</span>
+                                <span class="data-badge">Deep space observation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Emerging Technologies</h4>
+                        <div class="tech-list">
+                            <div class="tech-item mb-3">
+                                <h6>Nuclear Propulsion</h6>
+                                <p class="small">Nuclear thermal and electric propulsion for faster interplanetary travel.</p>
+                            </div>
+                            <div class="tech-item mb-3">
+                                <h6>In-Situ Resource Utilization</h6>
+                                <p class="small">Using local materials on other worlds to support human missions.</p>
+                            </div>
+                            <div class="tech-item mb-3">
+                                <h6>Artificial Gravity</h6>
+                                <p class="small">Rotating spacecraft to provide Earth-like gravity for long missions.</p>
+                            </div>
+                            <div class="tech-item">
+                                <h6>Closed-Loop Life Support</h6>
+                                <p class="small">Self-sustaining systems for air, water, and food production in space.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Space Agencies -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Global Space Agencies</h2>
+                    <p class="section-subtitle">Organizations leading humanity's exploration of space</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-flag-usa me-2" style="color: #74b9ff;"></i>NASA (United States)</h3>
+                        <p>The National Aeronautics and Space Administration, established in 1958, has led many of humanity's greatest space achievements including the Apollo Moon landings and the Hubble Space Telescope.</p>
+                        
+                        <h5>Major Programs:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Artemis Moon Program</span>
+                            <span class="data-badge">Mars Exploration</span>
+                            <span class="data-badge">James Webb Telescope</span>
+                            <span class="data-badge">ISS Operations</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-flag me-2" style="color: #fd79a8;"></i>ESA (Europe)</h3>
+                        <p>The European Space Agency coordinates space activities across 22 member states, focusing on scientific missions, Earth observation, and international cooperation.</p>
+                        
+                        <h5>Major Programs:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">ExoMars Program</span>
+                            <span class="data-badge">Copernicus Earth Observation</span>
+                            <span class="data-badge">Gaia Star Mapping</span>
+                            <span class="data-badge">BepiColombo Mercury</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-flag me-2" style="color: #e17055;"></i>Other Major Agencies</h3>
+                        
+                        <div class="agency-item mb-3">
+                            <h6>Roscosmos (Russia)</h6>
+                            <p class="small">Pioneered human spaceflight and continues ISS operations and lunar exploration plans.</p>
+                        </div>
+                        
+                        <div class="agency-item mb-3">
+                            <h6>CNSA (China)</h6>
+                            <p class="small">Rapidly advancing space program with lunar samples, Mars rover, and space station.</p>
+                        </div>
+                        
+                        <div class="agency-item mb-3">
+                            <h6>JAXA (Japan)</h6>
+                            <p class="small">Leading asteroid sample return missions and advanced space technology development.</p>
+                        </div>
+                        
+                        <div class="agency-item">
+                            <h6>ISRO (India)</h6>
+                            <p class="small">Cost-effective missions including Mars orbiter and lunar exploration programs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-handshake me-2 text-cosmic"></i>International Cooperation</h3>
+                        <p>Space exploration increasingly relies on international partnerships, sharing costs, expertise, and risks while promoting peaceful cooperation.</p>
+                        
+                        <h5>Collaborative Projects:</h5>
+                        <p><strong>International Space Station:</strong> 15 countries working together</p>
+                        <p><strong>Artemis Accords:</strong> Framework for peaceful lunar exploration</p>
+                        <p><strong>Mars Sample Return:</strong> NASA-ESA joint mission</p>
+                        <p><strong>James Webb Telescope:</strong> NASA-ESA-CSA partnership</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Shared resources</span>
+                            <span class="data-badge">Risk mitigation</span>
+                            <span class="data-badge">Peaceful cooperation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tools -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Mission Tracker</h2>
+                    <p class="section-subtitle">Interactive tools to explore space missions and achievements</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="chart-container">
+                        <h4>Space Missions by Decade</h4>
+                        <canvas id="missionsChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Mission Distance Calculator</h4>
+                        <div id="distanceCalculator">
+                            <div class="mb-3">
+                                <label for="destination" class="form-label">Select Destination</label>
+                                <select class="form-select" id="destination">
+                                    <option value="moon">Moon</option>
+                                    <option value="mars">Mars</option>
+                                    <option value="jupiter">Jupiter</option>
+                                    <option value="saturn">Saturn</option>
+                                    <option value="neptune">Neptune</option>
+                                    <option value="proxima">Proxima Centauri</option>
+                                </select>
+                            </div>
+                            <div class="result-display">
+                                <h6>Distance from Earth:</h6>
+                                <div id="distanceResult" class="data-badge">384,400 km</div>
+                                <h6 class="mt-3">Travel Time (Current Technology):</h6>
+                                <div id="travelTimeResult" class="small">3 days</div>
+                                <h6 class="mt-3">Light Travel Time:</h6>
+                                <div id="lightTimeResult" class="small">1.3 seconds</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="galaxies.html">Galaxies</a></li>
+                        <li><a href="stars.html">Stars</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="nebulae.html">Nebulae</a></li>
+                        <li><a href="asteroids.html">Asteroids</a></li>
+                        <li><a href="cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="exploration.html">Space Exploration</a></li>
+                        <li><a href="../index.html#timeline">Timeline</a></li>
+                        <li><a href="../index.html#features">Features</a></li>
+                        <li><a href="../index.html#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        // Destination data
+        const destinations = {
+            moon: { distance: 384400, travelDays: 3, lightTime: "1.3 seconds" },
+            mars: { distance: 225000000, travelDays: 260, lightTime: "12.5 minutes" },
+            jupiter: { distance: 628000000, travelDays: 2000, lightTime: "35 minutes" },
+            saturn: { distance: 1400000000, travelDays: 4500, lightTime: "78 minutes" },
+            neptune: { distance: 4500000000, travelDays: 14600, lightTime: "4.2 hours" },
+            proxima: { distance: 40000000000000, travelDays: 130000000, lightTime: "4.24 years" }
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Space missions chart
+            const missionsCtx = document.getElementById('missionsChart');
+            if (missionsCtx) {
+                new Chart(missionsCtx, {
+                    type: 'line',
+                    data: {
+                        labels: ['1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s', '2020s'],
+                        datasets: [{
+                            label: 'Number of Missions',
+                            data: [2, 45, 78, 65, 89, 156, 234, 189],
+                            borderColor: 'rgba(108, 92, 231, 1)',
+                            backgroundColor: 'rgba(108, 92, 231, 0.1)',
+                            borderWidth: 3,
+                            fill: true,
+                            tension: 0.4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { labels: { color: '#ffffff' } }
+                        },
+                        scales: {
+                            y: {
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            },
+                            x: {
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Distance calculator
+            const destinationSelect = document.getElementById('destination');
+            const distanceResult = document.getElementById('distanceResult');
+            const travelTimeResult = document.getElementById('travelTimeResult');
+            const lightTimeResult = document.getElementById('lightTimeResult');
+
+            function updateDestination() {
+                const dest = destinations[destinationSelect.value];
+                
+                if (dest.distance >= 1000000000) {
+                    distanceResult.textContent = (dest.distance / 1000000000).toFixed(1) + ' billion km';
+                } else if (dest.distance >= 1000000) {
+                    distanceResult.textContent = (dest.distance / 1000000).toFixed(0) + ' million km';
+                } else {
+                    distanceResult.textContent = dest.distance.toLocaleString() + ' km';
+                }
+                
+                if (dest.travelDays >= 365000) {
+                    travelTimeResult.textContent = (dest.travelDays / 365000).toFixed(0) + ' million years';
+                } else if (dest.travelDays >= 365) {
+                    travelTimeResult.textContent = (dest.travelDays / 365).toFixed(0) + ' years';
+                } else {
+                    travelTimeResult.textContent = dest.travelDays + ' days';
+                }
+                
+                lightTimeResult.textContent = dest.lightTime;
+            }
+
+            if (destinationSelect) {
+                destinationSelect.addEventListener('change', updateDestination);
+                updateDestination(); // Initial calculation
+            }
+        });
+    </script>
+</body>
+</html>
+

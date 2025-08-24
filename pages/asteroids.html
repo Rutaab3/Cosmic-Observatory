@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroids - Cosmic Observatory</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">
+                        <i class="fas fa-meteor me-3"></i>Asteroids
+                    </h1>
+                    <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        Rocky remnants from the solar system's formation, ranging from pebbles to dwarf planets
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Asteroids Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h2><i class="fas fa-info-circle me-2 text-cosmic"></i>What are Asteroids?</h2>
+                        <p>Asteroids are rocky objects that orbit the Sun, ranging in size from small pebbles to objects hundreds of kilometers across. They are remnants from the solar system's formation 4.6 billion years ago, representing the building blocks that never assembled into planets.</p>
+                        <p>Most asteroids are found in the asteroid belt between Mars and Jupiter, though they exist throughout the solar system. These ancient objects provide valuable insights into the early solar system and the processes that formed the planets.</p>
+                        
+                        <div class="mt-4">
+                            <span class="data-badge">1.1 million known asteroids</span>
+                            <span class="data-badge">Size: 1m to 940km</span>
+                            <span class="data-badge">Age: 4.6 billion years</span>
+                            <span class="data-badge">Mostly in asteroid belt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Asteroid Types -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Types of Asteroids</h2>
+                    <p class="section-subtitle">Classification based on composition and spectral properties</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #636e72;"></i>C-type (Carbonaceous)</h3>
+                        <p>C-type asteroids are the most common, making up about 75% of known asteroids. They are dark, carbon-rich objects that likely contain water and organic compounds, making them particularly interesting for astrobiology.</p>
+                        
+                        <h5>Characteristics:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">75% of asteroids</span>
+                            <span class="data-badge">Dark surface (3-9% reflectivity)</span>
+                            <span class="data-badge">Carbon-rich composition</span>
+                            <span class="data-badge">May contain water ice</span>
+                        </div>
+                        
+                        <h5>Examples:</h5>
+                        <p><strong>Ceres:</strong> The largest asteroid and only dwarf planet in the asteroid belt.</p>
+                        <p><strong>Pallas:</strong> Second-largest asteroid with an unusual tilted orbit.</p>
+                        <p><strong>Hygiea:</strong> Fourth-largest asteroid with a nearly spherical shape.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #fdcb6e;"></i>S-type (Silicaceous)</h3>
+                        <p>S-type asteroids are composed mainly of silicate minerals and nickel-iron, making them brighter than C-types. They represent about 17% of known asteroids and are more common in the inner asteroid belt.</p>
+                        
+                        <h5>Characteristics:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">17% of asteroids</span>
+                            <span class="data-badge">Moderate reflectivity (10-22%)</span>
+                            <span class="data-badge">Silicate and metal composition</span>
+                            <span class="data-badge">Inner asteroid belt</span>
+                        </div>
+                        
+                        <h5>Examples:</h5>
+                        <p><strong>Vesta:</strong> Second-most massive asteroid with a differentiated interior.</p>
+                        <p><strong>Juno:</strong> One of the first asteroids discovered, highly elongated shape.</p>
+                        <p><strong>Hebe:</strong> Possible source of H chondrite meteorites on Earth.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #74b9ff;"></i>M-type (Metallic)</h3>
+                        <p>M-type asteroids are composed primarily of nickel-iron metal and are thought to be the exposed cores of differentiated asteroids that were disrupted by collisions. They are relatively rare but highly reflective.</p>
+                        
+                        <h5>Characteristics:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">8% of asteroids</span>
+                            <span class="data-badge">High reflectivity (10-18%)</span>
+                            <span class="data-badge">Nickel-iron composition</span>
+                            <span class="data-badge">Exposed planetary cores</span>
+                        </div>
+                        
+                        <h5>Examples:</h5>
+                        <p><strong>Psyche:</strong> Largest M-type asteroid, target of NASA mission.</p>
+                        <p><strong>Kleopatra:</strong> Dog-bone shaped asteroid with two moons.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #e17055;"></i>Near-Earth Asteroids (NEAs)</h3>
+                        <p>Near-Earth asteroids have orbits that bring them close to Earth's orbit. While most pose no threat, some are classified as Potentially Hazardous Asteroids (PHAs) and are closely monitored.</p>
+                        
+                        <h5>Categories:</h5>
+                        <p><strong>Atira:</strong> Orbits entirely within Earth's orbit</p>
+                        <p><strong>Aten:</strong> Semi-major axis less than 1 AU</p>
+                        <p><strong>Apollo:</strong> Semi-major axis greater than 1 AU</p>
+                        <p><strong>Amor:</strong> Orbits between Earth and Mars</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">28,000+ known NEAs</span>
+                            <span class="data-badge">2,300+ PHAs</span>
+                            <span class="data-badge">Continuous monitoring</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Asteroid Belt -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">The Asteroid Belt</h2>
+                    <p class="section-subtitle">The main concentration of asteroids between Mars and Jupiter</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-ring me-2 text-cosmic"></i>Structure and Formation</h3>
+                        <p>The asteroid belt is a torus-shaped region between the orbits of Mars and Jupiter, containing most of the solar system's known asteroids. Despite popular depictions, the belt is mostly empty space with asteroids separated by millions of kilometers.</p>
+                        
+                        <h5>Formation Theory:</h5>
+                        <p>The asteroid belt likely formed from material that was prevented from accreting into a planet by Jupiter's gravitational influence. Jupiter's gravity stirred up the region, causing high-velocity collisions that prevented planetary formation.</p>
+                        
+                        <h5>Kirkwood Gaps:</h5>
+                        <p>The belt contains gaps called Kirkwood gaps, regions where few asteroids are found due to orbital resonances with Jupiter. These resonances destabilize asteroid orbits, clearing out certain distances.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 2.2 - 3.2 AU</span>
+                            <span class="data-badge">Total mass: 4% of Moon</span>
+                            <span class="data-badge">1.1-1.9 million asteroids >1km</span>
+                            <span class="data-badge">Ceres contains 25% of belt mass</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Largest Asteroids</h4>
+                        <div class="asteroid-list">
+                            <div class="asteroid-item mb-3">
+                                <h6>Ceres</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Diameter: 940 km</span>
+                                    <span class="data-badge">Dwarf planet</span>
+                                </div>
+                                <p class="small">Contains about 25% of the asteroid belt's total mass.</p>
+                            </div>
+                            <div class="asteroid-item mb-3">
+                                <h6>Vesta</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Diameter: 525 km</span>
+                                    <span class="data-badge">Differentiated</span>
+                                </div>
+                                <p class="small">Has a basaltic surface and may have had volcanic activity.</p>
+                            </div>
+                            <div class="asteroid-item mb-3">
+                                <h6>Pallas</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Diameter: 512 km</span>
+                                    <span class="data-badge">Tilted orbit</span>
+                                </div>
+                                <p class="small">Has an unusually inclined and eccentric orbit.</p>
+                            </div>
+                            <div class="asteroid-item">
+                                <h6>Hygiea</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Diameter: 434 km</span>
+                                    <span class="data-badge">Nearly spherical</span>
+                                </div>
+                                <p class="small">Largest C-type asteroid after Ceres.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Asteroid Missions -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Asteroid Exploration</h2>
+                    <p class="section-subtitle">Spacecraft missions to study asteroids up close</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-satellite me-2 text-cosmic"></i>Past and Current Missions</h3>
+                        
+                        <div class="mission-item mb-4">
+                            <h5>Dawn Mission (2007-2018)</h5>
+                            <p>NASA's Dawn spacecraft visited both Vesta and Ceres, providing detailed maps and discovering water ice on Ceres and evidence of past volcanic activity on Vesta.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Visited Vesta & Ceres</span>
+                                <span class="data-badge">Ion propulsion</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-item mb-4">
+                            <h5>OSIRIS-REx (2016-2023)</h5>
+                            <p>NASA's sample return mission to asteroid Bennu, successfully collected samples and returned them to Earth in September 2023.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Sample return</span>
+                                <span class="data-badge">Bennu asteroid</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-item">
+                            <h5>Hayabusa2 (2014-2020)</h5>
+                            <p>JAXA's mission to asteroid Ryugu, successfully returned samples to Earth and deployed small rovers on the asteroid's surface.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Ryugu samples</span>
+                                <span class="data-badge">Surface rovers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-rocket me-2 text-cosmic"></i>Future Missions</h3>
+                        
+                        <div class="mission-item mb-4">
+                            <h5>Psyche Mission (2023-2029)</h5>
+                            <p>NASA mission to study the metallic asteroid Psyche, believed to be the exposed core of an early planet. Launch occurred in October 2023.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Metal asteroid</span>
+                                <span class="data-badge">Planetary core study</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-item mb-4">
+                            <h5>DART Mission Results</h5>
+                            <p>NASA's Double Asteroid Redirection Test successfully impacted Dimorphos in 2022, demonstrating planetary defense capabilities.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Planetary defense</span>
+                                <span class="data-badge">Successful impact</span>
+                            </div>
+                        </div>
+                        
+                        <div class="mission-item">
+                            <h5>Lucy Mission (2021-2033)</h5>
+                            <p>NASA mission to study Jupiter's Trojan asteroids, primitive objects that share Jupiter's orbit and may hold clues to solar system formation.</p>
+                            <div class="mb-2">
+                                <span class="data-badge">Trojan asteroids</span>
+                                <span class="data-badge">12-year mission</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tools -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Asteroid Explorer</h2>
+                    <p class="section-subtitle">Interactive tools to explore asteroid properties</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="chart-container">
+                        <h4>Asteroid Size Distribution</h4>
+                        <canvas id="asteroidSizeChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Impact Energy Calculator</h4>
+                        <div id="impactCalculator">
+                            <div class="mb-3">
+                                <label for="asteroidSize" class="form-label">Asteroid Diameter (meters)</label>
+                                <input type="range" class="form-range" id="asteroidSize" min="10" max="1000" step="10" value="100">
+                                <div class="d-flex justify-content-between">
+                                    <span>10m</span>
+                                    <span id="sizeDisplay">100m</span>
+                                    <span>1000m</span>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="asteroidSpeed" class="form-label">Impact Speed (km/s)</label>
+                                <input type="range" class="form-range" id="asteroidSpeed" min="11" max="72" step="1" value="20">
+                                <div class="d-flex justify-content-between">
+                                    <span>11 km/s</span>
+                                    <span id="speedDisplay">20 km/s</span>
+                                    <span>72 km/s</span>
+                                </div>
+                            </div>
+                            <div class="result-display">
+                                <h6>Impact Energy:</h6>
+                                <div id="energyResult" class="data-badge">1.2 × 10¹⁵ J</div>
+                                <h6 class="mt-3">Equivalent to:</h6>
+                                <div id="equivalentResult" class="small">290 kilotons of TNT</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="galaxies.html">Galaxies</a></li>
+                        <li><a href="stars.html">Stars</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="nebulae.html">Nebulae</a></li>
+                        <li><a href="asteroids.html">Asteroids</a></li>
+                        <li><a href="cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="exploration.html">Space Exploration</a></li>
+                        <li><a href="../index.html#timeline">Timeline</a></li>
+                        <li><a href="../index.html#features">Features</a></li>
+                        <li><a href="../index.html#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Asteroid size distribution chart
+            const sizeCtx = document.getElementById('asteroidSizeChart');
+            if (sizeCtx) {
+                new Chart(sizeCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['<1km', '1-10km', '10-100km', '>100km'],
+                        datasets: [{
+                            label: 'Number of Asteroids',
+                            data: [1000000, 100000, 1000, 200],
+                            backgroundColor: [
+                                'rgba(253, 121, 168, 0.8)',
+                                'rgba(116, 185, 255, 0.8)',
+                                'rgba(162, 155, 254, 0.8)',
+                                'rgba(225, 112, 85, 0.8)'
+                            ],
+                            borderColor: [
+                                'rgba(253, 121, 168, 1)',
+                                'rgba(116, 185, 255, 1)',
+                                'rgba(162, 155, 254, 1)',
+                                'rgba(225, 112, 85, 1)'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { labels: { color: '#ffffff' } }
+                        },
+                        scales: {
+                            y: {
+                                type: 'logarithmic',
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            },
+                            x: {
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Impact energy calculator
+            const sizeSlider = document.getElementById('asteroidSize');
+            const speedSlider = document.getElementById('asteroidSpeed');
+            const sizeDisplay = document.getElementById('sizeDisplay');
+            const speedDisplay = document.getElementById('speedDisplay');
+            const energyResult = document.getElementById('energyResult');
+            const equivalentResult = document.getElementById('equivalentResult');
+
+            function calculateImpact() {
+                const diameter = parseFloat(sizeSlider.value); // meters
+                const speed = parseFloat(speedSlider.value) * 1000; // m/s
+                
+                // Assume rocky asteroid density ~2500 kg/m³
+                const radius = diameter / 2;
+                const volume = (4/3) * Math.PI * Math.pow(radius, 3);
+                const mass = volume * 2500; // kg
+                
+                // Kinetic energy = 0.5 * m * v²
+                const energy = 0.5 * mass * Math.pow(speed, 2); // Joules
+                
+                // Convert to TNT equivalent (1 ton TNT = 4.184 × 10⁹ J)
+                const tntEquivalent = energy / (4.184e9); // tons of TNT
+                
+                sizeDisplay.textContent = diameter + 'm';
+                speedDisplay.textContent = (speed/1000) + ' km/s';
+                
+                if (energy >= 1e15) {
+                    energyResult.textContent = (energy/1e15).toFixed(1) + ' × 10¹⁵ J';
+                } else if (energy >= 1e12) {
+                    energyResult.textContent = (energy/1e12).toFixed(1) + ' × 10¹² J';
+                } else {
+                    energyResult.textContent = (energy/1e9).toFixed(1) + ' × 10⁹ J';
+                }
+                
+                if (tntEquivalent >= 1000000) {
+                    equivalentResult.textContent = (tntEquivalent/1000000).toFixed(1) + ' megatons of TNT';
+                } else if (tntEquivalent >= 1000) {
+                    equivalentResult.textContent = (tntEquivalent/1000).toFixed(0) + ' kilotons of TNT';
+                } else {
+                    equivalentResult.textContent = tntEquivalent.toFixed(0) + ' tons of TNT';
+                }
+            }
+
+            if (sizeSlider && speedSlider) {
+                sizeSlider.addEventListener('input', calculateImpact);
+                speedSlider.addEventListener('input', calculateImpact);
+                calculateImpact(); // Initial calculation
+            }
+        });
+    </script>
+</body>
+</html>
+

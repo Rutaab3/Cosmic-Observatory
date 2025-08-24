@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebulae - Cosmic Observatory</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">
+                        <i class="fas fa-cloud me-3"></i>Nebulae
+                    </h1>
+                    <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        Cosmic clouds where stars are born and die, painting the universe in brilliant colors
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nebulae Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h2><i class="fas fa-info-circle me-2 text-cosmic"></i>What are Nebulae?</h2>
+                        <p>Nebulae are vast clouds of gas and dust in space, often spanning hundreds of light-years. They are among the most beautiful objects in the universe, glowing in brilliant colors as they interact with starlight and stellar winds. Nebulae play crucial roles in the cosmic cycle of stellar birth and death.</p>
+                        <p>The word "nebula" comes from the Latin word for "cloud." These cosmic clouds are primarily composed of hydrogen and helium, along with heavier elements created by previous generations of stars. They serve as stellar nurseries where new stars are born and as monuments to stellar death.</p>
+                        
+                        <div class="mt-4">
+                            <span class="data-badge">Stellar Nurseries</span>
+                            <span class="data-badge">Gas and Dust Clouds</span>
+                            <span class="data-badge">Light-Years Across</span>
+                            <span class="data-badge">Cosmic Recycling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Types of Nebulae -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Types of Nebulae</h2>
+                    <p class="section-subtitle">Different categories of cosmic clouds and their characteristics</p>
+                </div>
+            </div>
+            
+            <!-- Emission Nebulae -->
+            <div class="row mb-5">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-lightbulb me-2" style="color: #fd79a8;"></i>Emission Nebulae</h3>
+                        <p>Emission nebulae glow with their own light, energized by nearby hot stars. The ultraviolet radiation from these stars ionizes the hydrogen gas in the nebula, causing it to emit light in characteristic colors, particularly the red glow of hydrogen alpha.</p>
+                        
+                        <h5>Formation and Characteristics:</h5>
+                        <p>These nebulae form when massive, hot stars (O and B type) emit intense ultraviolet radiation that ionizes surrounding hydrogen gas. The ionized gas then recombines and emits photons, creating the nebula's glow.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Temperature: 10,000 K</span>
+                            <span class="data-badge">Red hydrogen glow</span>
+                            <span class="data-badge">Star-forming regions</span>
+                            <span class="data-badge">H II regions</span>
+                        </div>
+                        
+                        <h5>Famous Examples:</h5>
+                        <p><strong>Orion Nebula (M42):</strong> The closest star-forming region to Earth at 1,344 light-years away.</p>
+                        <p><strong>Eagle Nebula (M16):</strong> Famous for the "Pillars of Creation" columns of gas and dust.</p>
+                        <p><strong>Rosette Nebula:</strong> A skull-shaped nebula in the constellation Monoceros.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Emission Nebula Gallery</h4>
+                        <div class="nebula-list">
+                            <div class="nebula-item mb-3">
+                                <h6>Orion Nebula (M42)</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 1,344 ly</span>
+                                    <span class="data-badge">Size: 24 ly across</span>
+                                </div>
+                                <p class="small">Visible to naked eye, stellar nursery with 2,000 times the Sun's mass.</p>
+                            </div>
+                            <div class="nebula-item mb-3">
+                                <h6>Eagle Nebula (M16)</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 7,000 ly</span>
+                                    <span class="data-badge">Age: 5.5 million years</span>
+                                </div>
+                                <p class="small">Home to the famous "Pillars of Creation" star-forming columns.</p>
+                            </div>
+                            <div class="nebula-item">
+                                <h6>Carina Nebula</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 8,500 ly</span>
+                                    <span class="data-badge">Size: 460 ly across</span>
+                                </div>
+                                <p class="small">One of the largest nebulae, home to massive star Eta Carinae.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Reflection Nebulae -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-mirror me-2" style="color: #74b9ff;"></i>Reflection Nebulae</h3>
+                        <p>Reflection nebulae don't emit their own light but instead reflect and scatter light from nearby stars. They typically appear blue because blue light scatters more efficiently than red light, similar to why Earth's sky appears blue.</p>
+                        
+                        <h5>Scattering Process:</h5>
+                        <p>Dust particles in the nebula scatter starlight, with shorter wavelengths (blue) scattered more than longer wavelengths (red), creating the characteristic blue appearance.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Blue appearance</span>
+                            <span class="data-badge">Dust scattering</span>
+                            <span class="data-badge">Cooler than emission nebulae</span>
+                        </div>
+                        
+                        <h5>Notable Examples:</h5>
+                        <p><strong>Pleiades:</strong> The famous "Seven Sisters" star cluster surrounded by reflection nebulae.</p>
+                        <p><strong>Witch Head Nebula:</strong> A reflection nebula illuminated by the bright star Rigel.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Planetary Nebulae</h4>
+                        <p>Despite their name, planetary nebulae have nothing to do with planets. They form when dying stars shed their outer layers, creating beautiful, often symmetrical shells of glowing gas.</p>
+                        
+                        <h5>Formation:</h5>
+                        <p>When a red giant star exhausts its fuel, it ejects its outer layers while the core becomes a white dwarf. The white dwarf's ultraviolet radiation ionizes the ejected material.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Ring or shell shape</span>
+                            <span class="data-badge">Central white dwarf</span>
+                            <span class="data-badge">Lifespan: 10,000 years</span>
+                        </div>
+                        
+                        <h5>Famous Examples:</h5>
+                        <p><strong>Ring Nebula (M57):</strong> A perfect ring of gas in Lyra constellation.</p>
+                        <p><strong>Cat's Eye Nebula:</strong> Complex structure with knots and jets.</p>
+                        <p><strong>Helix Nebula:</strong> Known as the "Eye of God," closest planetary nebula to Earth.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Dark Nebulae -->
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-moon me-2" style="color: #636e72;"></i>Dark Nebulae</h3>
+                        <p>Dark nebulae are dense clouds of gas and dust that block light from stars behind them, appearing as dark patches against the starry background. They are often the sites of future star formation.</p>
+                        
+                        <h5>Characteristics:</h5>
+                        <p>These nebulae are so dense that they absorb visible light, but they can be observed in infrared wavelengths. They're typically very cold, around 10-20 K.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Light absorption</span>
+                            <span class="data-badge">Very cold: 10-20 K</span>
+                            <span class="data-badge">Future star formation</span>
+                        </div>
+                        
+                        <h5>Examples:</h5>
+                        <p><strong>Horsehead Nebula:</strong> Iconic dark nebula silhouetted against bright emission nebula.</p>
+                        <p><strong>Coal Sack Nebula:</strong> Prominent dark nebula visible in the Southern Hemisphere.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-explosion me-2" style="color: #e17055;"></i>Supernova Remnants</h3>
+                        <p>Supernova remnants are the expanding shells of gas and dust created by stellar explosions. They enrich the interstellar medium with heavy elements and can trigger the formation of new stars.</p>
+                        
+                        <h5>Formation and Evolution:</h5>
+                        <p>When a massive star explodes as a supernova, it creates a shock wave that expands into space, heating and ionizing surrounding material for thousands of years.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Expanding shock waves</span>
+                            <span class="data-badge">Heavy element enrichment</span>
+                            <span class="data-badge">X-ray emission</span>
+                        </div>
+                        
+                        <h5>Famous Remnants:</h5>
+                        <p><strong>Crab Nebula (M1):</strong> Remnant of supernova observed in 1054 AD.</p>
+                        <p><strong>Veil Nebula:</strong> Large supernova remnant in Cygnus constellation.</p>
+                        <p><strong>Cassiopeia A:</strong> Young supernova remnant, strong radio source.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Star Formation -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Star Formation in Nebulae</h2>
+                    <p class="section-subtitle">How cosmic clouds give birth to new stars</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h3><i class="fas fa-baby me-2 text-cosmic"></i>The Stellar Birth Process</h3>
+                        
+                        <div class="formation-timeline">
+                            <div class="formation-stage mb-4">
+                                <h5>1. Molecular Cloud Collapse</h5>
+                                <p>Dense regions in molecular clouds begin to collapse under their own gravity, often triggered by shock waves from nearby supernovae or stellar winds.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Gravitational collapse</span>
+                                    <span class="data-badge">Temperature: 10-20 K</span>
+                                    <span class="data-badge">Density increase</span>
+                                </div>
+                            </div>
+                            
+                            <div class="formation-stage mb-4">
+                                <h5>2. Protostar Formation</h5>
+                                <p>As the cloud collapses, it heats up and forms a protostar. The surrounding material forms an accretion disk, and jets of material are ejected from the poles.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Accretion disk</span>
+                                    <span class="data-badge">Bipolar jets</span>
+                                    <span class="data-badge">Temperature rise</span>
+                                </div>
+                            </div>
+                            
+                            <div class="formation-stage mb-4">
+                                <h5>3. T Tauri Phase</h5>
+                                <p>The protostar becomes a T Tauri star, still accreting material but beginning to clear its surroundings through stellar winds and radiation pressure.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Strong stellar winds</span>
+                                    <span class="data-badge">Variable brightness</span>
+                                    <span class="data-badge">Disk clearing</span>
+                                </div>
+                            </div>
+                            
+                            <div class="formation-stage">
+                                <h5>4. Main Sequence Star</h5>
+                                <p>When the core temperature reaches about 10 million K, nuclear fusion begins, and the star enters the main sequence phase of its life.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Nuclear fusion starts</span>
+                                    <span class="data-badge">Hydrostatic equilibrium</span>
+                                    <span class="data-badge">Stable energy output</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tools -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Nebula Explorer</h2>
+                    <p class="section-subtitle">Interactive tools to explore nebular properties</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="chart-container">
+                        <h4>Nebula Types Distribution</h4>
+                        <canvas id="nebulaTypesChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Nebula Fact Generator</h4>
+                        <div id="nebulaFacts">
+                            <button class="btn btn-cosmic mb-3" onclick="generateNebulaFact()">Generate Random Fact</button>
+                            <div id="factDisplay" class="fact-box">
+                                <p>Click the button above to learn fascinating facts about nebulae!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="galaxies.html">Galaxies</a></li>
+                        <li><a href="stars.html">Stars</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="nebulae.html">Nebulae</a></li>
+                        <li><a href="asteroids.html">Asteroids</a></li>
+                        <li><a href="cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="exploration.html">Space Exploration</a></li>
+                        <li><a href="../index.html#timeline">Timeline</a></li>
+                        <li><a href="../index.html#features">Features</a></li>
+                        <li><a href="../index.html#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        // Nebula facts array
+        const nebulaFacts = [
+            "The Orion Nebula is visible to the naked eye and appears as the middle 'star' in Orion's sword.",
+            "The Eagle Nebula's 'Pillars of Creation' are about 4-5 light-years tall.",
+            "Planetary nebulae got their name because they looked like planets through early telescopes.",
+            "The Horsehead Nebula is about 1,500 light-years away and is one of the most recognizable nebulae.",
+            "Supernova remnants can trigger the formation of new stars by compressing nearby gas clouds.",
+            "The Crab Nebula is expanding at 1,500 kilometers per second.",
+            "Dark nebulae can be so dense that they block 99% of the light behind them.",
+            "The Rosette Nebula has a cavity in its center created by stellar winds from hot young stars.",
+            "Reflection nebulae appear blue for the same reason Earth's sky is blue - light scattering.",
+            "The Helix Nebula is sometimes called the 'Eye of God' due to its appearance."
+        ];
+
+        function generateNebulaFact() {
+            const randomIndex = Math.floor(Math.random() * nebulaFacts.length);
+            const factDisplay = document.getElementById('factDisplay');
+            factDisplay.innerHTML = `<p><strong>Did you know?</strong> ${nebulaFacts[randomIndex]}</p>`;
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Nebula types chart
+            const typesCtx = document.getElementById('nebulaTypesChart');
+            if (typesCtx) {
+                new Chart(typesCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Emission', 'Reflection', 'Planetary', 'Dark', 'Supernova Remnants'],
+                        datasets: [{
+                            data: [35, 20, 25, 15, 5],
+                            backgroundColor: [
+                                'rgba(253, 121, 168, 0.8)',
+                                'rgba(116, 185, 255, 0.8)',
+                                'rgba(162, 155, 254, 0.8)',
+                                'rgba(99, 110, 114, 0.8)',
+                                'rgba(225, 112, 85, 0.8)'
+                            ],
+                            borderColor: [
+                                'rgba(253, 121, 168, 1)',
+                                'rgba(116, 185, 255, 1)',
+                                'rgba(162, 155, 254, 1)',
+                                'rgba(99, 110, 114, 1)',
+                                'rgba(225, 112, 85, 1)'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    color: '#ffffff',
+                                    padding: 20
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+

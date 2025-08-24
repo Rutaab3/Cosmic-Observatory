@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxies - Cosmic Observatory</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">
+                        <i class="fas fa-circle-notch me-3"></i>Galaxies
+                    </h1>
+                    <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        Explore the vast cosmic islands containing billions of stars, gas, and dark matter
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galaxy Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h2><i class="fas fa-info-circle me-2 text-cosmic"></i>What are Galaxies?</h2>
+                        <p>Galaxies are massive collections of stars, gas, dust, and dark matter bound together by gravity. They are the fundamental building blocks of the universe, containing anywhere from millions to trillions of stars. Our own Milky Way galaxy is home to over 400 billion stars and spans approximately 100,000 light-years in diameter.</p>
+                        <p>Scientists categorize galaxies based on their shapes, physical features, and the activity in their central regions. The classification system helps us understand how galaxies form, evolve, and interact with each other throughout cosmic time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galaxy Types -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Types of Galaxies</h2>
+                    <p class="section-subtitle">Discover the different classifications and characteristics of cosmic islands</p>
+                </div>
+            </div>
+            
+            <!-- Spiral Galaxies -->
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle-notch me-2 text-cosmic"></i>Spiral Galaxies</h3>
+                        <p>Our Milky Way is a prime example of spiral galaxies, characterized by their distinctive spiral arms that wind outward from a central bulge. These cosmic pinwheels contain a pancake-like disk of stars with arms that can be wound tightly or loosely.</p>
+                        
+                        <h5>Key Features:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Spiral Arms</span>
+                            <span class="data-badge">Central Bulge</span>
+                            <span class="data-badge">Stellar Disk</span>
+                            <span class="data-badge">Dark Matter Halo</span>
+                        </div>
+                        
+                        <h5>Barred Spirals:</h5>
+                        <p>Two-thirds of spiral galaxies, including the Milky Way and Andromeda, are barred spirals. These galaxies feature ribbons of stars, gas, and dust that cut across their centers. The presence of a bar indicates that a galaxy has reached full maturity.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Milky Way: 100,000 ly diameter</span>
+                            <span class="data-badge">Andromeda: 220,000 ly diameter</span>
+                            <span class="data-badge">400+ billion stars</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="chart-container">
+                        <h5>Galaxy Size Comparison</h5>
+                        <canvas id="galaxySizeChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Elliptical Galaxies -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2 text-cosmic"></i>Elliptical Galaxies</h3>
+                        <p>Elliptical galaxies have shapes ranging from completely round to oval. They are less common than spiral galaxies and typically contain little gas and dust, showing minimal organization or structure.</p>
+                        
+                        <h5>Characteristics:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Round to Oval Shape</span>
+                            <span class="data-badge">Little Gas & Dust</span>
+                            <span class="data-badge">Older Stars</span>
+                            <span class="data-badge">Random Orbits</span>
+                        </div>
+                        
+                        <p>The stars in elliptical galaxies orbit around the core in random directions and are generally older than those in spiral galaxies. Scientists believe elliptical galaxies originate from collisions and mergers between spiral galaxies.</p>
+                        
+                        <h5>Formation Theory:</h5>
+                        <p>These galaxies likely formed through galactic collisions and mergers, which disrupted the organized structure of spiral galaxies and redistributed their stellar populations into more random configurations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Notable Elliptical Galaxies</h4>
+                        <div class="galaxy-list">
+                            <div class="galaxy-item mb-3">
+                                <h6>M87 (Virgo A)</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 53.5 million ly</span>
+                                    <span class="data-badge">Mass: 6.6 trillion solar masses</span>
+                                </div>
+                                <p class="small">Giant elliptical galaxy in the Virgo Cluster, famous for its supermassive black hole.</p>
+                            </div>
+                            <div class="galaxy-item mb-3">
+                                <h6>NGC 4472 (M49)</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 55.9 million ly</span>
+                                    <span class="data-badge">Diameter: 157,000 ly</span>
+                                </div>
+                                <p class="small">Brightest galaxy in the Virgo Cluster with over 6,000 globular clusters.</p>
+                            </div>
+                            <div class="galaxy-item">
+                                <h6>IC 1101</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 1.04 billion ly</span>
+                                    <span class="data-badge">Diameter: 5.5 million ly</span>
+                                </div>
+                                <p class="small">One of the largest known galaxies in the observable universe.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Lenticular Galaxies -->
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-adjust me-2 text-cosmic"></i>Lenticular Galaxies</h3>
+                        <p>Lenticular galaxies are a hybrid between spirals and ellipticals. They have the central bulge and disk common to spiral galaxies but lack the distinctive spiral arms.</p>
+                        
+                        <h5>Features:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Central Bulge</span>
+                            <span class="data-badge">Stellar Disk</span>
+                            <span class="data-badge">No Spiral Arms</span>
+                            <span class="data-badge">Older Stars</span>
+                        </div>
+                        
+                        <h5>Evolution Theories:</h5>
+                        <p><strong>Faded Spirals:</strong> These galaxies may be older spirals whose arms have faded over time due to the depletion of gas needed for star formation.</p>
+                        <p><strong>Merger Products:</strong> Alternatively, lenticulars may have formed from mergers of spiral galaxies that resulted in the loss of spiral structure.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Lenticular Examples</h4>
+                        <div class="galaxy-list">
+                            <div class="galaxy-item mb-3">
+                                <h6>NGC 5866 (Spindle Galaxy)</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 50 million ly</span>
+                                    <span class="data-badge">Type: S0</span>
+                                </div>
+                                <p class="small">Edge-on lenticular galaxy with a prominent dust lane.</p>
+                            </div>
+                            <div class="galaxy-item mb-3">
+                                <h6>NGC 2787</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 24 million ly</span>
+                                    <span class="data-badge">Diameter: 60,000 ly</span>
+                                </div>
+                                <p class="small">Barred lenticular galaxy with a supermassive black hole.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Irregular Galaxies -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-puzzle-piece me-2 text-cosmic"></i>Irregular Galaxies</h3>
+                        <p>Irregular galaxies have unusual shapes that don't fit into the standard spiral or elliptical categories. They can look like toothpicks, rings, or even small groupings of stars.</p>
+                        
+                        <h5>Size Range:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Dwarf: 100 million solar masses</span>
+                            <span class="data-badge">Large: 10 billion solar masses</span>
+                        </div>
+                        
+                        <h5>Formation Causes:</h5>
+                        <p><strong>Gravitational Interactions:</strong> Close encounters with larger galaxies can distort smaller galaxies, pulling away material and creating irregular shapes.</p>
+                        <p><strong>Galaxy Collisions:</strong> When galaxies collide, they can create larger, oddly shaped mashups that don't conform to standard classifications.</p>
+                        <p><strong>Tidal Forces:</strong> Strong gravitational forces from nearby massive galaxies can strip material and reshape smaller galaxies.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Famous Irregular Galaxies</h4>
+                        <div class="galaxy-list">
+                            <div class="galaxy-item mb-3">
+                                <h6>Large Magellanic Cloud</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 160,000 ly</span>
+                                    <span class="data-badge">Diameter: 14,000 ly</span>
+                                </div>
+                                <p class="small">Satellite galaxy of the Milky Way, visible from the Southern Hemisphere.</p>
+                            </div>
+                            <div class="galaxy-item mb-3">
+                                <h6>Small Magellanic Cloud</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 200,000 ly</span>
+                                    <span class="data-badge">Diameter: 7,000 ly</span>
+                                </div>
+                                <p class="small">Companion to the Large Magellanic Cloud, also orbiting the Milky Way.</p>
+                            </div>
+                            <div class="galaxy-item">
+                                <h6>NGC 1427A</h6>
+                                <div class="mb-2">
+                                    <span class="data-badge">Distance: 62 million ly</span>
+                                    <span class="data-badge">Speed: 600 km/s</span>
+                                </div>
+                                <p class="small">Irregular galaxy being torn apart by the Fornax Cluster's gravity.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Active Galaxies -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Active Galaxies</h2>
+                    <p class="section-subtitle">Galaxies powered by supermassive black holes</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-bolt me-2 text-cosmic"></i>Active Galactic Nuclei</h3>
+                        <p>Around 10% of known galaxies are active, meaning their centers appear more than 100 times brighter than the combined light of their stars. This excess energy comes from areas near supermassive black holes at their centers.</p>
+                        
+                        <h5>Energy Source:</h5>
+                        <p>Gas and dust collect around the central black hole to form an accretion disk. The black hole's immense gravity compresses and heats this material, causing it to glow across multiple wavelengths from infrared to X-rays.</p>
+                        
+                        <h5>Structure:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Supermassive Black Hole</span>
+                            <span class="data-badge">Accretion Disk</span>
+                            <span class="data-badge">Dust Torus</span>
+                            <span class="data-badge">Relativistic Jets</span>
+                        </div>
+                        
+                        <h5>Classification:</h5>
+                        <p><strong>Radio-Loud:</strong> Emit strongly in radio wavelengths from both the accretion disk and jets.</p>
+                        <p><strong>Radio-Quiet:</strong> Have little to no emission from jets, primarily radiating from the accretion disk.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Active Galaxy Types</h4>
+                        <div class="galaxy-list">
+                            <div class="galaxy-item mb-3">
+                                <h6>Seyfert Galaxies</h6>
+                                <p class="small">Spiral galaxies with bright, variable nuclei. Type 1 shows broad emission lines, Type 2 shows narrow lines.</p>
+                            </div>
+                            <div class="galaxy-item mb-3">
+                                <h6>Quasars</h6>
+                                <p class="small">Extremely luminous active galactic nuclei, often the most distant objects we can observe.</p>
+                            </div>
+                            <div class="galaxy-item mb-3">
+                                <h6>Blazars</h6>
+                                <p class="small">Active galaxies with jets pointed directly toward Earth, appearing extremely bright and variable.</p>
+                            </div>
+                            <div class="galaxy-item">
+                                <h6>Radio Galaxies</h6>
+                                <p class="small">Elliptical galaxies with powerful radio jets extending far beyond the visible galaxy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galaxy Formation and Evolution -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Galaxy Formation & Evolution</h2>
+                    <p class="section-subtitle">How galaxies form and change over cosmic time</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-history me-2 text-cosmic"></i>Formation Timeline</h3>
+                        
+                        <div class="timeline-item mb-4">
+                            <h5>13.2 Billion Years Ago</h5>
+                            <p>First galaxies form from primordial gas clouds collapsing under gravity in the early universe.</p>
+                        </div>
+                        
+                        <div class="timeline-item mb-4">
+                            <h5>10-12 Billion Years Ago</h5>
+                            <p>Peak era of galaxy formation and star formation. Many large galaxies establish their basic structure.</p>
+                        </div>
+                        
+                        <div class="timeline-item mb-4">
+                            <h5>4.6 Billion Years Ago</h5>
+                            <p>Milky Way and Andromeda galaxies reach their current mature forms with well-defined spiral structure.</p>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h5>4.5 Billion Years Future</h5>
+                            <p>Predicted collision between Milky Way and Andromeda will create a new elliptical galaxy.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-exchange-alt me-2 text-cosmic"></i>Evolutionary Processes</h3>
+                        
+                        <h5>Galaxy Mergers:</h5>
+                        <p>When galaxies collide, they can merge to form larger galaxies. Major mergers often result in elliptical galaxies, while minor mergers can trigger star formation bursts.</p>
+                        
+                        <h5>Gas Accretion:</h5>
+                        <p>Galaxies grow by accreting gas from their surroundings. This fresh gas fuels continued star formation and galaxy growth.</p>
+                        
+                        <h5>Stellar Feedback:</h5>
+                        <p>Massive stars and supernovae inject energy into the interstellar medium, regulating star formation and driving galactic winds.</p>
+                        
+                        <h5>Environmental Effects:</h5>
+                        <p>Galaxy clusters can strip gas from member galaxies through ram pressure, affecting their evolution and star formation rates.</p>
+                        
+                        <div class="mt-4">
+                            <span class="data-badge">Dark Matter: 85% of galaxy mass</span>
+                            <span class="data-badge">Stars: 10% of galaxy mass</span>
+                            <span class="data-badge">Gas & Dust: 5% of galaxy mass</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tools -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Interactive Galaxy Tools</h2>
+                    <p class="section-subtitle">Explore galaxy properties and comparisons</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="chart-container">
+                        <h4>Galaxy Mass Distribution</h4>
+                        <canvas id="galaxyMassChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Galaxy Distance Calculator</h4>
+                        <div id="distanceCalculator"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h4>Galaxy Size Comparison</h4>
+                        <div id="sizeComparison" class="text-center"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="galaxies.html">Galaxies</a></li>
+                        <li><a href="stars.html">Stars</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="nebulae.html">Nebulae</a></li>
+                        <li><a href="asteroids.html">Asteroids</a></li>
+                        <li><a href="cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="exploration.html">Space Exploration</a></li>
+                        <li><a href="../index.html#timeline">Timeline</a></li>
+                        <li><a href="../index.html#features">Features</a></li>
+                        <li><a href="../index.html#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        // Initialize page-specific features
+        document.addEventListener('DOMContentLoaded', function() {
+            // Galaxy mass distribution chart
+            const ctx = document.getElementById('galaxyMassChart');
+            if (ctx) {
+                new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Dark Matter', 'Stars', 'Gas & Dust', 'Other'],
+                        datasets: [{
+                            data: [85, 10, 4, 1],
+                            backgroundColor: [
+                                'rgba(108, 92, 231, 0.8)',
+                                'rgba(253, 121, 168, 0.8)',
+                                'rgba(162, 155, 254, 0.8)',
+                                'rgba(116, 75, 162, 0.8)'
+                            ],
+                            borderColor: [
+                                'rgba(108, 92, 231, 1)',
+                                'rgba(253, 121, 168, 1)',
+                                'rgba(162, 155, 254, 1)',
+                                'rgba(116, 75, 162, 1)'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    color: '#ffffff',
+                                    padding: 20
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sun - Cosmic Observatory</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">
+                        <i class="fas fa-sun me-3"></i>The Sun
+                    </h1>
+                    <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        Our nearest star, the source of all energy and life on Earth
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sun Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h2><i class="fas fa-info-circle me-2 text-cosmic"></i>Our Nearest Star</h2>
+                        <p>The Sun is the star at the heart of our solar system, a massive sphere of hot plasma heated to incandescence by nuclear fusion reactions in its core. Its gravity holds the entire solar system together, and its energy makes life on Earth possible.</p>
+                        <p>As a G-type main sequence star, the Sun is about 4.6 billion years old and is expected to remain stable for another 5 billion years. It contains 99.8% of the solar system's mass and could fit about one million Earths inside it.</p>
+                        
+                        <div class="mt-4">
+                            <span class="data-badge">Diameter: 1.4 million km</span>
+                            <span class="data-badge">Mass: 1.989 × 10³⁰ kg</span>
+                            <span class="data-badge">Age: 4.6 billion years</span>
+                            <span class="data-badge">Temperature: 5,778 K surface</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sun Structure -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Solar Structure</h2>
+                    <p class="section-subtitle">The layers and regions of our star</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #fdcb6e;"></i>Core</h3>
+                        <p>The Sun's core is where nuclear fusion occurs, converting hydrogen into helium and releasing enormous amounts of energy. Temperatures reach 15 million°C and pressures are 250 billion times Earth's atmospheric pressure.</p>
+                        
+                        <h5>Nuclear Fusion:</h5>
+                        <p>Every second, the Sun converts 600 million tons of hydrogen into helium, releasing energy equivalent to 100 billion hydrogen bombs.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Temperature: 15 million°C</span>
+                            <span class="data-badge">Density: 150 g/cm³</span>
+                            <span class="data-badge">Radius: 20% of Sun</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-fire me-2" style="color: #e17055;"></i>Radiative Zone</h3>
+                        <p>Energy from the core travels through the radiative zone as photons, taking thousands of years to reach the surface due to constant absorption and re-emission by particles.</p>
+                        
+                        <h5>Energy Transport:</h5>
+                        <p>Photons created in the core undergo a "random walk" through this dense region, bouncing between particles for 10,000 to 170,000 years before reaching the convective zone.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Temperature: 7 million°C to 2 million°C</span>
+                            <span class="data-badge">Extends to 70% of solar radius</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-wind me-2" style="color: #fd79a8;"></i>Convective Zone</h3>
+                        <p>In the convective zone, hot plasma rises to the surface while cooler plasma sinks, creating convection currents that transport energy more efficiently than radiation.</p>
+                        
+                        <h5>Convection Cells:</h5>
+                        <p>These convection currents create granules visible on the Sun's surface, each about the size of Texas and lasting 8-20 minutes.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Temperature: 2 million°C to 5,778 K</span>
+                            <span class="data-badge">Outer 30% of Sun</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-eye me-2" style="color: #74b9ff;"></i>Photosphere</h3>
+                        <p>The photosphere is the Sun's visible surface, the layer from which sunlight is emitted. It's about 500 km thick and has a temperature of approximately 5,778 K.</p>
+                        
+                        <h5>Sunspots:</h5>
+                        <p>Dark regions on the photosphere caused by intense magnetic fields that inhibit convection, making these areas cooler (about 3,800 K) and darker.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Temperature: 5,778 K</span>
+                            <span class="data-badge">Thickness: 500 km</span>
+                            <span class="data-badge">Visible light emission</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar Atmosphere -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Solar Atmosphere</h2>
+                    <p class="section-subtitle">The layers above the Sun's surface</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-layer-group me-2 text-cosmic"></i>Chromosphere</h3>
+                        <p>The chromosphere is a thin layer above the photosphere, visible as a reddish glow during solar eclipses. It's where the temperature begins to rise again, reaching 20,000 K at its top.</p>
+                        
+                        <h5>Spicules:</h5>
+                        <p>Jet-like features that shoot up from the chromosphere at speeds of 20 km/s, reaching heights of 10,000 km and lasting 5-10 minutes.</p>
+                        
+                        <h5>Solar Prominences:</h5>
+                        <p>Large, bright features extending outward from the Sun's surface, often in loop-like configurations following magnetic field lines.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Temperature: 4,000-20,000 K</span>
+                            <span class="data-badge">Thickness: 2,000 km</span>
+                            <span class="data-badge">Red hydrogen emission</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-crown me-2 text-cosmic"></i>Corona</h3>
+                        <p>The corona is the Sun's outermost atmosphere, extending millions of kilometers into space. Despite being farther from the core, it reaches temperatures of 1-3 million°C.</p>
+                        
+                        <h5>Coronal Heating Problem:</h5>
+                        <p>Scientists are still investigating why the corona is so much hotter than the photosphere, with magnetic reconnection being a leading theory.</p>
+                        
+                        <h5>Solar Wind:</h5>
+                        <p>The corona is the source of the solar wind, a stream of charged particles that flows throughout the solar system at speeds of 400-800 km/s.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Temperature: 1-3 million°C</span>
+                            <span class="data-badge">Extends millions of km</span>
+                            <span class="data-badge">Source of solar wind</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar Activity -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Solar Activity</h2>
+                    <p class="section-subtitle">Dynamic phenomena on our active star</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-bolt me-2 text-cosmic"></i>Solar Flares</h3>
+                        <p>Solar flares are sudden releases of electromagnetic energy from the Sun's surface, caused by magnetic reconnection in the corona. They can release energy equivalent to billions of hydrogen bombs.</p>
+                        
+                        <h5>Classification:</h5>
+                        <p>Solar flares are classified by their X-ray brightness: A, B, C, M, and X classes, with X-class being the most powerful.</p>
+                        
+                        <h5>Effects on Earth:</h5>
+                        <p>Large solar flares can disrupt radio communications, damage satellites, and cause power grid failures. They also enhance aurora displays at high latitudes.</p>
+                        
+                        <h5>Coronal Mass Ejections (CMEs):</h5>
+                        <p>Sometimes associated with flares, CMEs are massive bursts of solar wind and magnetic fields released from the corona, traveling at speeds up to 3,000 km/s.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Solar Cycle</h4>
+                        <div class="cycle-info">
+                            <p>The Sun follows an 11-year cycle of activity, from solar minimum (few sunspots) to solar maximum (many sunspots and flares).</p>
+                            
+                            <h6>Current Cycle</h6>
+                            <p class="small">Solar Cycle 25 began in December 2019 and is expected to peak around 2025.</p>
+                            
+                            <div class="mt-3">
+                                <span class="data-badge">11-year cycle</span>
+                                <span class="data-badge">Magnetic field reversal</span>
+                                <span class="data-badge">Sunspot variation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-magnet me-2 text-cosmic"></i>Magnetic Field</h3>
+                        <p>The Sun's magnetic field is generated by the movement of charged particles in its interior. This field is responsible for most solar activity and follows an 11-year cycle.</p>
+                        
+                        <h5>Magnetic Reconnection:</h5>
+                        <p>When magnetic field lines break and reconnect, they release enormous amounts of energy, causing solar flares and heating the corona.</p>
+                        
+                        <h5>Sunspot Cycle:</h5>
+                        <p>Sunspots appear in pairs with opposite magnetic polarities and migrate from high latitudes toward the equator during each solar cycle.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-satellite-dish me-2 text-cosmic"></i>Space Weather</h3>
+                        <p>Solar activity affects the space environment around Earth, creating "space weather" that can impact technology and human activities.</p>
+                        
+                        <h5>Geomagnetic Storms:</h5>
+                        <p>When CMEs interact with Earth's magnetosphere, they can cause geomagnetic storms that disrupt GPS, radio communications, and power grids.</p>
+                        
+                        <h5>Aurora:</h5>
+                        <p>Charged particles from the solar wind interact with Earth's atmosphere to create beautiful aurora displays near the magnetic poles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solar Evolution -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Solar Evolution</h2>
+                    <p class="section-subtitle">The past, present, and future of our star</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h3><i class="fas fa-history me-2 text-cosmic"></i>Life Cycle of the Sun</h3>
+                        
+                        <div class="timeline-container">
+                            <div class="timeline-item mb-4">
+                                <h5>Formation (4.6 billion years ago)</h5>
+                                <p>The Sun formed from the gravitational collapse of a molecular cloud, with nuclear fusion beginning when core temperatures reached 10 million K.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Protostar phase</span>
+                                    <span class="data-badge">T Tauri stage</span>
+                                    <span class="data-badge">Main sequence begins</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>Current Phase (Present)</h5>
+                                <p>The Sun is currently in its main sequence phase, steadily converting hydrogen to helium in its core. It has been stable for 4.6 billion years.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Hydrogen burning</span>
+                                    <span class="data-badge">Stable luminosity</span>
+                                    <span class="data-badge">G-type star</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>Red Giant Phase (5 billion years future)</h5>
+                                <p>When hydrogen in the core is exhausted, the Sun will expand into a red giant, potentially engulfing Mercury and Venus.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Core contraction</span>
+                                    <span class="data-badge">Outer layer expansion</span>
+                                    <span class="data-badge">Helium burning</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>Planetary Nebula (7 billion years future)</h5>
+                                <p>The Sun will shed its outer layers, creating a beautiful planetary nebula with a white dwarf at the center.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Mass loss</span>
+                                    <span class="data-badge">Nebula formation</span>
+                                    <span class="data-badge">White dwarf remnant</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h5>White Dwarf (8+ billion years future)</h5>
+                                <p>The Sun will become a white dwarf, slowly cooling over trillions of years until it becomes a cold, dark object.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Earth-sized remnant</span>
+                                    <span class="data-badge">Gradual cooling</span>
+                                    <span class="data-badge">No nuclear fusion</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tools -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Solar Tools</h2>
+                    <p class="section-subtitle">Interactive tools to explore solar properties</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="chart-container">
+                        <h4>Solar Energy Output</h4>
+                        <canvas id="solarEnergyChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Solar Facts Calculator</h4>
+                        <div id="solarCalculator">
+                            <div class="fact-display mb-3">
+                                <h6>Energy Production:</h6>
+                                <div class="data-badge">3.8 × 10²⁶ watts</div>
+                                <p class="small mt-2">The Sun produces more energy in one second than humanity has used in all of history.</p>
+                            </div>
+                            
+                            <div class="fact-display mb-3">
+                                <h6>Mass Conversion:</h6>
+                                <div class="data-badge">4 million tons per second</div>
+                                <p class="small mt-2">The Sun converts 600 million tons of hydrogen into 596 million tons of helium every second.</p>
+                            </div>
+                            
+                            <div class="fact-display">
+                                <h6>Light Travel Time:</h6>
+                                <div class="data-badge">8 minutes 20 seconds</div>
+                                <p class="small mt-2">Time for sunlight to reach Earth from the Sun's surface.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="galaxies.html">Galaxies</a></li>
+                        <li><a href="stars.html">Stars</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="nebulae.html">Nebulae</a></li>
+                        <li><a href="asteroids.html">Asteroids</a></li>
+                        <li><a href="cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="exploration.html">Space Exploration</a></li>
+                        <li><a href="../index.html#timeline">Timeline</a></li>
+                        <li><a href="../index.html#features">Features</a></li>
+                        <li><a href="../index.html#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Solar energy output chart
+            const energyCtx = document.getElementById('solarEnergyChart');
+            if (energyCtx) {
+                new Chart(energyCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Visible Light', 'Infrared', 'Ultraviolet', 'Other'],
+                        datasets: [{
+                            data: [44, 49, 7, 0.1],
+                            backgroundColor: [
+                                'rgba(255, 206, 84, 0.8)',
+                                'rgba(255, 99, 132, 0.8)',
+                                'rgba(54, 162, 235, 0.8)',
+                                'rgba(153, 102, 255, 0.8)'
+                            ],
+                            borderColor: [
+                                'rgba(255, 206, 84, 1)',
+                                'rgba(255, 99, 132, 1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(153, 102, 255, 1)'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    color: '#ffffff',
+                                    padding: 20
+                                }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return context.label + ': ' + context.parsed + '%';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+

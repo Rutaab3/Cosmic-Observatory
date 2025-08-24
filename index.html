@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Observatory - Explore the Universe</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="stars-background"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1 class="hero-title">
+                        Explore the <span class="gradient-text">Infinite Universe</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Journey through the cosmos and discover the wonders of space - from distant galaxies to mysterious black holes, from stellar nurseries to planetary systems.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#features" class="btn btn-cosmic btn-lg me-3">
+                            <i class="fas fa-rocket me-2"></i>Start Exploring
+                        </a>
+                        <a href="pages/galaxies.html" class="btn btn-outline-cosmic btn-lg">
+                            <i class="fas fa-circle-notch me-2"></i>View Galaxies
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-visual">
+                        <div class="cosmic-sphere">
+                            <div class="orbit orbit-1"></div>
+                            <div class="orbit orbit-2"></div>
+                            <div class="orbit orbit-3"></div>
+                            <div class="planet planet-1"></div>
+                            <div class="planet planet-2"></div>
+                            <div class="planet planet-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Discover the Universe</h2>
+                    <p class="section-subtitle">Comprehensive information about every aspect of space and astronomy</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-circle-notch"></i>
+                        </div>
+                        <h3>Galaxies</h3>
+                        <p>Explore different types of galaxies, from spiral to elliptical, including our own Milky Way and distant Andromeda.</p>
+                        <a href="pages/galaxies.html" class="btn btn-cosmic-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Stars</h3>
+                        <p>Discover stellar evolution, from main sequence stars to supergiants, white dwarfs, and neutron stars.</p>
+                        <a href="pages/stars.html" class="btn btn-cosmic-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Planets</h3>
+                        <p>Journey through our solar system and learn about all eight planets, their moons, and characteristics.</p>
+                        <a href="pages/planets.html" class="btn btn-cosmic-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-dot-circle"></i>
+                        </div>
+                        <h3>Black Holes</h3>
+                        <p>Uncover the mysteries of black holes, from stellar-mass to supermassive giants at galaxy centers.</p>
+                        <a href="pages/blackholes.html" class="btn btn-cosmic-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Nebulae</h3>
+                        <p>Explore stellar nurseries and cosmic clouds where new stars are born and old ones meet their end.</p>
+                        <a href="pages/nebulae.html" class="btn btn-cosmic-outline">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                        <h3>Space Exploration</h3>
+                        <p>Follow humanity's journey into space, from early missions to current Mars rovers and future plans.</p>
+                        <a href="pages/exploration.html" class="btn btn-cosmic-outline">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Universe by Numbers</h2>
+                    <p class="section-subtitle">Mind-boggling facts about the cosmos</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="13.8">0</div>
+                        <div class="stat-unit">Billion Years</div>
+                        <div class="stat-label">Age of Universe</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="2">0</div>
+                        <div class="stat-unit">Trillion</div>
+                        <div class="stat-label">Galaxies in Observable Universe</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="400">0</div>
+                        <div class="stat-unit">Billion</div>
+                        <div class="stat-label">Stars in Milky Way</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="93">0</div>
+                        <div class="stat-unit">Billion Light Years</div>
+                        <div class="stat-label">Observable Universe Diameter</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Timeline -->
+    <section class="timeline-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Cosmic Timeline</h2>
+                    <p class="section-subtitle">Journey through the history of the universe</p>
+                </div>
+            </div>
+            <div class="timeline-container">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>Big Bang</h3>
+                        <span class="timeline-date">13.8 billion years ago</span>
+                        <p>The universe begins with a singularity that rapidly expands, creating space, time, and matter.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>First Stars</h3>
+                        <span class="timeline-date">13.6 billion years ago</span>
+                        <p>The first generation of stars forms from primordial hydrogen and helium gas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>First Galaxies</h3>
+                        <span class="timeline-date">13.2 billion years ago</span>
+                        <p>Gravity pulls matter together to form the first galaxies and galaxy clusters.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <h3>Solar System Formation</h3>
+                        <span class="timeline-date">4.6 billion years ago</span>
+                        <p>Our solar system forms from a collapsing cloud of gas and dust.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <h3>Life on Earth</h3>
+                        <span class="timeline-date">3.8 billion years ago</span>
+                        <p>The first signs of life appear on Earth in the form of simple microorganisms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="pages/galaxies.html">Galaxies</a></li>
+                        <li><a href="pages/stars.html">Stars</a></li>
+                        <li><a href="pages/planets.html">Planets</a></li>
+                        <li><a href="pages/sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="pages/blackholes.html">Black Holes</a></li>
+                        <li><a href="pages/nebulae.html">Nebulae</a></li>
+                        <li><a href="pages/asteroids.html">Asteroids</a></li>
+                        <li><a href="pages/cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="pages/exploration.html">Space Exploration</a></li>
+                        <li><a href="#timeline">Timeline</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+

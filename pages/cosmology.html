@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmology - Cosmic Observatory</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">
+                        <i class="fas fa-infinity me-3"></i>Cosmology
+                    </h1>
+                    <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        The study of the universe's origin, evolution, and ultimate fate
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cosmology Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h2><i class="fas fa-info-circle me-2 text-cosmic"></i>What is Cosmology?</h2>
+                        <p>Cosmology is the scientific study of the universe as a whole, including its origin, evolution, structure, and ultimate fate. It combines observations, theoretical physics, and mathematical models to understand the largest scales of space and time.</p>
+                        <p>Modern cosmology is built on Einstein's theory of general relativity and the cosmological principle, which assumes the universe is homogeneous and isotropic on large scales. This field has revolutionized our understanding of space, time, and matter.</p>
+                        
+                        <div class="mt-4">
+                            <span class="data-badge">Age: 13.8 billion years</span>
+                            <span class="data-badge">Observable diameter: 93 billion ly</span>
+                            <span class="data-badge">Expanding universe</span>
+                            <span class="data-badge">Dark matter & energy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Big Bang Theory -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">The Big Bang Theory</h2>
+                    <p class="section-subtitle">The prevailing model for the universe's origin and early evolution</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h3><i class="fas fa-explosion me-2 text-cosmic"></i>Timeline of the Universe</h3>
+                        
+                        <div class="timeline-container">
+                            <div class="timeline-item mb-4">
+                                <h5>Planck Epoch (0 to 10⁻⁴³ seconds)</h5>
+                                <p>The earliest moment we can theoretically describe, when all fundamental forces were unified. Physics as we know it breaks down at this scale.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Quantum gravity era</span>
+                                    <span class="data-badge">Unified forces</span>
+                                    <span class="data-badge">Planck temperature</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>Inflation (10⁻³⁶ to 10⁻³² seconds)</h5>
+                                <p>A period of exponential expansion that explains the universe's large-scale uniformity and flatness. The universe expanded by a factor of at least 10²⁶.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">Exponential expansion</span>
+                                    <span class="data-badge">Horizon problem solved</span>
+                                    <span class="data-badge">Quantum fluctuations</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>Nucleosynthesis (3-20 minutes)</h5>
+                                <p>The universe cooled enough for protons and neutrons to form light elements: hydrogen, helium, and trace amounts of lithium and beryllium.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">75% hydrogen</span>
+                                    <span class="data-badge">25% helium</span>
+                                    <span class="data-badge">Temperature: 10⁹ K</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>Recombination (380,000 years)</h5>
+                                <p>Electrons combined with nuclei to form neutral atoms, making the universe transparent to light. This is when the cosmic microwave background was emitted.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">First neutral atoms</span>
+                                    <span class="data-badge">Universe becomes transparent</span>
+                                    <span class="data-badge">CMB emission</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item mb-4">
+                                <h5>Dark Ages (380,000 - 150 million years)</h5>
+                                <p>A period with no stars or galaxies, only neutral hydrogen and helium gas slowly clumping under gravity's influence.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">No light sources</span>
+                                    <span class="data-badge">Structure formation begins</span>
+                                    <span class="data-badge">Dark matter halos</span>
+                                </div>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h5>Reionization (150 million - 1 billion years)</h5>
+                                <p>The first stars and galaxies formed, their radiation ionizing the surrounding hydrogen and ending the cosmic dark ages.</p>
+                                <div class="mb-2">
+                                    <span class="data-badge">First stars</span>
+                                    <span class="data-badge">Galaxy formation</span>
+                                    <span class="data-badge">Universe reionized</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dark Matter and Dark Energy -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Dark Universe</h2>
+                    <p class="section-subtitle">The mysterious components that dominate the cosmos</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-eye-slash me-2" style="color: #636e72;"></i>Dark Matter</h3>
+                        <p>Dark matter makes up about 27% of the universe but doesn't emit, absorb, or reflect light. We know it exists because of its gravitational effects on visible matter and the cosmic microwave background.</p>
+                        
+                        <h5>Evidence for Dark Matter:</h5>
+                        <p><strong>Galaxy Rotation Curves:</strong> Stars in galaxy outskirts move too fast for visible matter alone.</p>
+                        <p><strong>Gravitational Lensing:</strong> Light bends around invisible mass concentrations.</p>
+                        <p><strong>Cosmic Microwave Background:</strong> Patterns require dark matter for structure formation.</p>
+                        
+                        <h5>Candidates:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">WIMPs</span>
+                            <span class="data-badge">Axions</span>
+                            <span class="data-badge">Sterile neutrinos</span>
+                            <span class="data-badge">Primordial black holes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-expand-arrows-alt me-2" style="color: #6c5ce7;"></i>Dark Energy</h3>
+                        <p>Dark energy comprises about 68% of the universe and is responsible for its accelerating expansion. Discovered in 1998, it remains one of the biggest mysteries in physics.</p>
+                        
+                        <h5>Discovery:</h5>
+                        <p>Observations of distant supernovae showed the universe's expansion is accelerating, contrary to expectations that gravity should slow it down.</p>
+                        
+                        <h5>Possible Explanations:</h5>
+                        <p><strong>Cosmological Constant:</strong> Einstein's lambda, representing vacuum energy.</p>
+                        <p><strong>Quintessence:</strong> A dynamic scalar field that changes over time.</p>
+                        <p><strong>Modified Gravity:</strong> Alterations to general relativity on cosmic scales.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">68% of universe</span>
+                            <span class="data-badge">Accelerating expansion</span>
+                            <span class="data-badge">Negative pressure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cosmic Microwave Background -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Cosmic Microwave Background</h2>
+                    <p class="section-subtitle">The afterglow of the Big Bang and our window to the early universe</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-wave-square me-2 text-cosmic"></i>The Universe's Baby Picture</h3>
+                        <p>The cosmic microwave background (CMB) is radiation left over from the Big Bang, emitted when the universe first became transparent about 380,000 years after the Big Bang. It provides crucial evidence for the Big Bang theory and insights into the universe's composition and geometry.</p>
+                        
+                        <h5>Discovery and Significance:</h5>
+                        <p>Discovered accidentally by Penzias and Wilson in 1965, the CMB earned them the Nobel Prize. It appears as a nearly uniform glow across the entire sky with tiny temperature fluctuations that seeded all cosmic structure.</p>
+                        
+                        <h5>Key Properties:</h5>
+                        <p><strong>Temperature:</strong> 2.725 K, nearly uniform across the sky</p>
+                        <p><strong>Blackbody Spectrum:</strong> Perfect thermal radiation, confirming Big Bang predictions</p>
+                        <p><strong>Anisotropies:</strong> Tiny fluctuations (10⁻⁵ K) that grew into galaxies and clusters</p>
+                        
+                        <h5>What CMB Tells Us:</h5>
+                        <p>The CMB's precise measurements have determined fundamental cosmological parameters: the universe's age (13.8 billion years), composition (5% ordinary matter, 27% dark matter, 68% dark energy), and geometry (flat).</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>CMB Missions</h4>
+                        <div class="mission-list">
+                            <div class="mission-item mb-3">
+                                <h6>COBE (1989-1993)</h6>
+                                <p class="small">First detailed CMB measurements, discovered anisotropies, Nobel Prize 2006.</p>
+                            </div>
+                            <div class="mission-item mb-3">
+                                <h6>WMAP (2001-2010)</h6>
+                                <p class="small">Precise measurements of CMB temperature and polarization patterns.</p>
+                            </div>
+                            <div class="mission-item">
+                                <h6>Planck (2009-2013)</h6>
+                                <p class="small">Most detailed CMB map ever, refined cosmological parameters to high precision.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future of the Universe -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">The Universe's Fate</h2>
+                    <p class="section-subtitle">Possible scenarios for the ultimate destiny of the cosmos</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-snowflake me-2" style="color: #74b9ff;"></i>Heat Death</h3>
+                        <p>The most likely scenario based on current observations. The universe will continue expanding and cooling until it reaches maximum entropy, with all energy evenly distributed and no more work possible.</p>
+                        
+                        <h5>Timeline:</h5>
+                        <p><strong>10¹⁴ years:</strong> Star formation ends as gas is exhausted</p>
+                        <p><strong>10¹⁵ years:</strong> Stars begin dying, leaving white dwarfs, neutron stars, and black holes</p>
+                        <p><strong>10³⁴ years:</strong> Protons decay (if they do), leaving only leptons and photons</p>
+                        <p><strong>10⁶⁴ years:</strong> Black holes evaporate via Hawking radiation</p>
+                        <p><strong>10¹⁰⁰ years:</strong> Universe reaches maximum entropy</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-compress-arrows-alt me-2" style="color: #e17055;"></i>Alternative Scenarios</h3>
+                        
+                        <h5>Big Rip</h5>
+                        <p>If dark energy continues to accelerate expansion, it could eventually overcome all fundamental forces, tearing apart galaxies, stars, atoms, and even space-time itself.</p>
+                        
+                        <h5>Big Crunch</h5>
+                        <p>If dark energy weakens or reverses, gravity could eventually halt expansion and cause the universe to collapse back into a singularity, reversing the Big Bang.</p>
+                        
+                        <h5>Cyclic Universe</h5>
+                        <p>Some theories propose the universe undergoes infinite cycles of expansion and contraction, with each Big Bang followed by a Big Crunch and subsequent rebirth.</p>
+                        
+                        <div class="mb-3">
+                            <span class="data-badge">Depends on dark energy</span>
+                            <span class="data-badge">Trillions of years</span>
+                            <span class="data-badge">Highly speculative</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Tools -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Cosmic Calculator</h2>
+                    <p class="section-subtitle">Interactive tools to explore cosmological concepts</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="chart-container">
+                        <h4>Universe Composition</h4>
+                        <canvas id="universeCompositionChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Cosmic Timeline</h4>
+                        <div id="cosmicTimeline">
+                            <div class="timeline-fact mb-3">
+                                <h6>If the universe's history was compressed into 1 year:</h6>
+                                <div class="fact-item mb-2">
+                                    <strong>January 1:</strong> Big Bang
+                                </div>
+                                <div class="fact-item mb-2">
+                                    <strong>September 2:</strong> Milky Way forms
+                                </div>
+                                <div class="fact-item mb-2">
+                                    <strong>September 9:</strong> Solar system forms
+                                </div>
+                                <div class="fact-item mb-2">
+                                    <strong>September 14:</strong> Earth forms
+                                </div>
+                                <div class="fact-item mb-2">
+                                    <strong>December 17:</strong> Complex life appears
+                                </div>
+                                <div class="fact-item">
+                                    <strong>December 31, 11:59 PM:</strong> Human civilization
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="galaxies.html">Galaxies</a></li>
+                        <li><a href="stars.html">Stars</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="nebulae.html">Nebulae</a></li>
+                        <li><a href="asteroids.html">Asteroids</a></li>
+                        <li><a href="cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="exploration.html">Space Exploration</a></li>
+                        <li><a href="../index.html#timeline">Timeline</a></li>
+                        <li><a href="../index.html#features">Features</a></li>
+                        <li><a href="../index.html#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Universe composition chart
+            const compositionCtx = document.getElementById('universeCompositionChart');
+            if (compositionCtx) {
+                new Chart(compositionCtx, {
+                    type: 'doughnut',
+                    data: {
+                        labels: ['Dark Energy', 'Dark Matter', 'Ordinary Matter'],
+                        datasets: [{
+                            data: [68.3, 26.8, 4.9],
+                            backgroundColor: [
+                                'rgba(108, 92, 231, 0.8)',
+                                'rgba(99, 110, 114, 0.8)',
+                                'rgba(253, 121, 168, 0.8)'
+                            ],
+                            borderColor: [
+                                'rgba(108, 92, 231, 1)',
+                                'rgba(99, 110, 114, 1)',
+                                'rgba(253, 121, 168, 1)'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'bottom',
+                                labels: {
+                                    color: '#ffffff',
+                                    padding: 20
+                                }
+                            },
+                            tooltip: {
+                                callbacks: {
+                                    label: function(context) {
+                                        return context.label + ': ' + context.parsed + '%';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+

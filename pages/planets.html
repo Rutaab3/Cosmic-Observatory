@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets - Cosmic Observatory</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-dark fixed-top cosmic-nav">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <i class="fas fa-rocket me-2"></i>
+                Cosmic Observatory
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html"><i class="fas fa-home me-1"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galaxies.html"><i class="fas fa-circle-notch me-1"></i>Galaxies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="stars.html"><i class="fas fa-star me-1"></i>Stars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="planets.html"><i class="fas fa-globe me-1"></i>Planets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sun.html"><i class="fas fa-sun me-1"></i>Sun</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blackholes.html"><i class="fas fa-dot-circle me-1"></i>Black Holes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nebulae.html"><i class="fas fa-cloud me-1"></i>Nebulae</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="asteroids.html"><i class="fas fa-meteor me-1"></i>Asteroids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cosmology.html"><i class="fas fa-infinity me-1"></i>Cosmology</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exploration.html"><i class="fas fa-satellite me-1"></i>Exploration</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title" data-aos="fade-up">
+                        <i class="fas fa-globe me-3"></i>Planets
+                    </h1>
+                    <p class="page-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        Explore the diverse worlds of our solar system, from rocky terrestrial planets to gas giants
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planet Overview -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h2><i class="fas fa-info-circle me-2 text-cosmic"></i>What are Planets?</h2>
+                        <p>The word "planet" comes from the ancient Greek word "planēt," meaning "wanderer." These celestial bodies are large objects that orbit the Sun and have cleared their orbital paths of other debris. Our solar system contains eight planets, each with unique characteristics and fascinating features.</p>
+                        <p>In 2006, the International Astronomical Union (IAU) established a formal definition of planets, which led to Pluto's reclassification as a dwarf planet. The eight planets are divided into two main categories: terrestrial (rocky) planets and gas/ice giants.</p>
+                        
+                        <div class="mt-4">
+                            <span class="data-badge">8 Planets in Solar System</span>
+                            <span class="data-badge">4 Terrestrial Planets</span>
+                            <span class="data-badge">4 Gas/Ice Giants</span>
+                            <span class="data-badge">5 Dwarf Planets</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inner Planets -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Inner Planets (Terrestrial)</h2>
+                    <p class="section-subtitle">Rocky worlds with solid surfaces closest to the Sun</p>
+                </div>
+            </div>
+            
+            <!-- Mercury -->
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #8e8e93;"></i>Mercury</h3>
+                        <p>Mercury is the smallest planet in our solar system and the closest to the Sun. It's only slightly larger than Earth's Moon and has extreme temperature variations due to its lack of atmosphere.</p>
+                        
+                        <h5>Key Facts:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 0.39 AU from Sun</span>
+                            <span class="data-badge">Diameter: 4,879 km</span>
+                            <span class="data-badge">Day: 59 Earth days</span>
+                            <span class="data-badge">Year: 88 Earth days</span>
+                        </div>
+                        
+                        <h5>Extreme Conditions:</h5>
+                        <p><strong>Temperature:</strong> Ranges from 427°C (800°F) on the day side to -173°C (-280°F) on the night side.</p>
+                        <p><strong>Atmosphere:</strong> Virtually no atmosphere, just a thin exosphere of oxygen, sodium, hydrogen, helium, and potassium.</p>
+                        
+                        <h5>Notable Features:</h5>
+                        <p><strong>Caloris Basin:</strong> A massive impact crater about 1,550 km in diameter, one of the largest in the solar system.</p>
+                        <p><strong>Iron Core:</strong> Mercury has a large iron core that makes up about 75% of the planet's radius.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Mercury Exploration</h4>
+                        <div class="mission-list">
+                            <div class="mission-item mb-3">
+                                <h6>Mariner 10 (1974-1975)</h6>
+                                <p class="small">First spacecraft to visit Mercury, mapped 45% of the planet's surface.</p>
+                            </div>
+                            <div class="mission-item mb-3">
+                                <h6>MESSENGER (2011-2015)</h6>
+                                <p class="small">First spacecraft to orbit Mercury, provided detailed maps and discovered water ice at the poles.</p>
+                            </div>
+                            <div class="mission-item">
+                                <h6>BepiColombo (2025)</h6>
+                                <p class="small">Joint ESA-JAXA mission currently en route to Mercury, expected to arrive in 2025.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Venus -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #ffc649;"></i>Venus</h3>
+                        <p>Venus is often called Earth's "twin" due to similar size and mass, but it's actually a hellish world with extreme greenhouse effect. It's the hottest planet in our solar system.</p>
+                        
+                        <h5>Key Facts:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 0.72 AU from Sun</span>
+                            <span class="data-badge">Diameter: 12,104 km</span>
+                            <span class="data-badge">Day: 243 Earth days</span>
+                            <span class="data-badge">Year: 225 Earth days</span>
+                        </div>
+                        
+                        <h5>Extreme Environment:</h5>
+                        <p><strong>Temperature:</strong> Surface temperature of 462°C (864°F) - hot enough to melt lead.</p>
+                        <p><strong>Pressure:</strong> Atmospheric pressure 90 times greater than Earth's.</p>
+                        <p><strong>Atmosphere:</strong> 96% carbon dioxide with sulfuric acid clouds.</p>
+                        
+                        <h5>Unique Features:</h5>
+                        <p><strong>Retrograde Rotation:</strong> Venus rotates backwards compared to most planets.</p>
+                        <p><strong>Volcanic Activity:</strong> Evidence suggests recent volcanic activity with over 1,600 major volcanoes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Venus Missions</h4>
+                        <div class="mission-list">
+                            <div class="mission-item mb-3">
+                                <h6>Venera Program (1961-1984)</h6>
+                                <p class="small">Soviet missions that first landed on Venus and transmitted surface images.</p>
+                            </div>
+                            <div class="mission-item mb-3">
+                                <h6>Magellan (1990-1994)</h6>
+                                <p class="small">NASA orbiter that mapped 98% of Venus's surface using radar.</p>
+                            </div>
+                            <div class="mission-item">
+                                <h6>Parker Solar Probe</h6>
+                                <p class="small">Regularly flies by Venus, providing new insights into the planet's atmosphere.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Earth -->
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #6bb6ff;"></i>Earth</h3>
+                        <p>Earth is our home planet and the only known world to harbor life. It has liquid water on its surface, a protective atmosphere, and a magnetic field that shields us from harmful solar radiation.</p>
+                        
+                        <h5>Key Facts:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 1.00 AU from Sun</span>
+                            <span class="data-badge">Diameter: 12,756 km</span>
+                            <span class="data-badge">Day: 24 hours</span>
+                            <span class="data-badge">Year: 365.25 days</span>
+                        </div>
+                        
+                        <h5>Life-Supporting Features:</h5>
+                        <p><strong>Atmosphere:</strong> 78% nitrogen, 21% oxygen, perfect for life as we know it.</p>
+                        <p><strong>Water:</strong> 71% of surface covered by liquid water oceans.</p>
+                        <p><strong>Magnetic Field:</strong> Protects from solar wind and cosmic radiation.</p>
+                        
+                        <h5>The Moon:</h5>
+                        <p>Earth's natural satellite is unusually large relative to the planet, helping stabilize Earth's axial tilt and creating tides that may have aided the development of life.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Earth's Vital Statistics</h4>
+                        <div class="stats-list">
+                            <div class="stat-item mb-3">
+                                <h6>Age</h6>
+                                <p class="small">4.54 billion years old</p>
+                            </div>
+                            <div class="stat-item mb-3">
+                                <h6>Life</h6>
+                                <p class="small">First life appeared ~3.8 billion years ago</p>
+                            </div>
+                            <div class="stat-item mb-3">
+                                <h6>Biodiversity</h6>
+                                <p class="small">8.7 million estimated species</p>
+                            </div>
+                            <div class="stat-item">
+                                <h6>Human Population</h6>
+                                <p class="small">Over 8 billion people</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mars -->
+            <div class="row">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #cd5c5c;"></i>Mars</h3>
+                        <p>Mars, the "Red Planet," is the fourth planet from the Sun and has been a target for exploration due to evidence of past water activity and potential for past or present life.</p>
+                        
+                        <h5>Key Facts:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 1.52 AU from Sun</span>
+                            <span class="data-badge">Diameter: 6,792 km</span>
+                            <span class="data-badge">Day: 24.6 hours</span>
+                            <span class="data-badge">Year: 687 Earth days</span>
+                        </div>
+                        
+                        <h5>Notable Features:</h5>
+                        <p><strong>Olympus Mons:</strong> The largest volcano in the solar system, 21 km high.</p>
+                        <p><strong>Valles Marineris:</strong> A canyon system 4,000 km long and up to 7 km deep.</p>
+                        <p><strong>Polar Ice Caps:</strong> Made of water ice and frozen carbon dioxide.</p>
+                        
+                        <h5>Moons:</h5>
+                        <p><strong>Phobos and Deimos:</strong> Two small, irregularly shaped moons, likely captured asteroids.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Mars Exploration</h4>
+                        <div class="mission-list">
+                            <div class="mission-item mb-3">
+                                <h6>Viking 1 & 2 (1976)</h6>
+                                <p class="small">First successful U.S. landers on Mars, searched for signs of life.</p>
+                            </div>
+                            <div class="mission-item mb-3">
+                                <h6>Mars Rovers</h6>
+                                <p class="small">Sojourner, Spirit, Opportunity, Curiosity, and Perseverance have explored the surface.</p>
+                            </div>
+                            <div class="mission-item">
+                                <h6>Future Missions</h6>
+                                <p class="small">Sample return missions and human exploration planned for the 2030s.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Outer Planets -->
+    <section class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Outer Planets (Gas & Ice Giants)</h2>
+                    <p class="section-subtitle">Massive worlds with no solid surfaces, composed mainly of gas and ice</p>
+                </div>
+            </div>
+            
+            <!-- Jupiter -->
+            <div class="row mb-5">
+                <div class="col-lg-8" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #d8ca9d;"></i>Jupiter</h3>
+                        <p>Jupiter is the largest planet in our solar system, a gas giant with a mass greater than all other planets combined. It acts as a "cosmic vacuum cleaner," protecting inner planets from asteroids and comets.</p>
+                        
+                        <h5>Key Facts:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 5.20 AU from Sun</span>
+                            <span class="data-badge">Diameter: 142,984 km</span>
+                            <span class="data-badge">Day: 9.9 hours</span>
+                            <span class="data-badge">Year: 11.9 Earth years</span>
+                        </div>
+                        
+                        <h5>Great Red Spot:</h5>
+                        <p>A massive storm larger than Earth that has been raging for at least 400 years. Wind speeds reach up to 432 km/h (268 mph).</p>
+                        
+                        <h5>Composition:</h5>
+                        <p>Primarily hydrogen (89%) and helium (10%) with traces of methane, water, ammonia, and rock.</p>
+                        
+                        <h5>Moons:</h5>
+                        <p>Jupiter has 95 known moons, including the four largest Galilean moons: Io, Europa, Ganymede, and Callisto.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Jupiter's Major Moons</h4>
+                        <div class="moon-list">
+                            <div class="moon-item mb-3">
+                                <h6>Io</h6>
+                                <p class="small">Most volcanically active body in the solar system with over 400 active volcanoes.</p>
+                            </div>
+                            <div class="moon-item mb-3">
+                                <h6>Europa</h6>
+                                <p class="small">Ice-covered moon with a subsurface ocean that may harbor life.</p>
+                            </div>
+                            <div class="moon-item mb-3">
+                                <h6>Ganymede</h6>
+                                <p class="small">Largest moon in the solar system, larger than Mercury.</p>
+                            </div>
+                            <div class="moon-item">
+                                <h6>Callisto</h6>
+                                <p class="small">Heavily cratered moon with possible subsurface ocean.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Saturn -->
+            <div class="row mb-5">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #fab27b;"></i>Saturn</h3>
+                        <p>Saturn is famous for its spectacular ring system, the most extensive and visible from Earth. It's the least dense planet in our solar system - it would float in water if there were an ocean large enough!</p>
+                        
+                        <h5>Key Facts:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 9.58 AU from Sun</span>
+                            <span class="data-badge">Diameter: 120,536 km</span>
+                            <span class="data-badge">Day: 10.7 hours</span>
+                            <span class="data-badge">Year: 29.4 Earth years</span>
+                        </div>
+                        
+                        <h5>Ring System:</h5>
+                        <p>Saturn's rings are made of countless ice and rock particles ranging from tiny grains to house-sized chunks. The rings span up to 282,000 km but are only about 10 meters thick.</p>
+                        
+                        <h5>Hexagonal Storm:</h5>
+                        <p>Saturn's north pole features a unique hexagonal cloud pattern, a geometric storm unlike anything else in the solar system.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Saturn's Notable Moons</h4>
+                        <div class="moon-list">
+                            <div class="moon-item mb-3">
+                                <h6>Titan</h6>
+                                <p class="small">Larger than Mercury, with a thick atmosphere and liquid methane lakes.</p>
+                            </div>
+                            <div class="moon-item mb-3">
+                                <h6>Enceladus</h6>
+                                <p class="small">Ice-covered moon with geysers erupting from its south pole.</p>
+                            </div>
+                            <div class="moon-item">
+                                <h6>Mimas</h6>
+                                <p class="small">Known as the "Death Star moon" due to its large Herschel crater.</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <span class="data-badge">146 known moons</span>
+                            <span class="data-badge">Density: 0.687 g/cm³</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Uranus -->
+            <div class="row mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #4fd0e7;"></i>Uranus</h3>
+                        <p>Uranus is an ice giant that rotates on its side, making it unique among planets. It's the coldest planetary atmosphere in the solar system and has a faint ring system.</p>
+                        
+                        <h5>Key Facts:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 19.2 AU from Sun</span>
+                            <span class="data-badge">Diameter: 51,118 km</span>
+                            <span class="data-badge">Day: 17.2 hours</span>
+                            <span class="data-badge">Year: 84 Earth years</span>
+                        </div>
+                        
+                        <h5>Unique Rotation:</h5>
+                        <p>Uranus rotates at a 98-degree angle, essentially rolling on its side as it orbits the Sun. This may be due to a collision with an Earth-sized object billions of years ago.</p>
+                        
+                        <h5>Composition:</h5>
+                        <p>Made of water, methane, and ammonia ices surrounding a rocky core. The methane gives it its blue-green color.</p>
+                        
+                        <h5>Rings:</h5>
+                        <p>Uranus has 13 known rings, discovered in 1977. They are much fainter than Saturn's rings.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="info-card">
+                        <h4>Uranus Facts</h4>
+                        <div class="fact-list">
+                            <div class="fact-item mb-3">
+                                <h6>Extreme Seasons</h6>
+                                <p class="small">Each pole experiences 42 years of continuous sunlight followed by 42 years of darkness.</p>
+                            </div>
+                            <div class="fact-item mb-3">
+                                <h6>Magnetic Field</h6>
+                                <p class="small">Tilted 59 degrees from the rotational axis and doesn't pass through the center.</p>
+                            </div>
+                            <div class="fact-item mb-3">
+                                <h6>Moons</h6>
+                                <p class="small">27 known moons, all named after characters from Shakespeare and Alexander Pope.</p>
+                            </div>
+                            <div class="fact-item">
+                                <h6>Discovery</h6>
+                                <p class="small">First planet discovered with a telescope by William Herschel in 1781.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Neptune -->
+            <div class="row">
+                <div class="col-lg-6 order-lg-2" data-aos="fade-left">
+                    <div class="info-card">
+                        <h3><i class="fas fa-circle me-2" style="color: #4b70dd;"></i>Neptune</h3>
+                        <p>Neptune is the most distant planet from the Sun and the windiest planet in the solar system. It was the first planet discovered through mathematical prediction rather than observation.</p>
+                        
+                        <h5>Key Facts:</h5>
+                        <div class="mb-3">
+                            <span class="data-badge">Distance: 30.1 AU from Sun</span>
+                            <span class="data-badge">Diameter: 49,528 km</span>
+                            <span class="data-badge">Day: 16.1 hours</span>
+                            <span class="data-badge">Year: 165 Earth years</span>
+                        </div>
+                        
+                        <h5>Extreme Weather:</h5>
+                        <p>Neptune has the fastest winds in the solar system, reaching speeds of up to 2,100 km/h (1,300 mph) - nearly supersonic!</p>
+                        
+                        <h5>Great Dark Spot:</h5>
+                        <p>A massive storm system similar to Jupiter's Great Red Spot, but it disappeared and reappeared in different locations.</p>
+                        
+                        <h5>Triton:</h5>
+                        <p>Neptune's largest moon orbits backwards and has geysers of nitrogen gas erupting from its surface.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1" data-aos="fade-right">
+                    <div class="info-card">
+                        <h4>Neptune Discovery</h4>
+                        <div class="discovery-info">
+                            <p>Neptune was discovered in 1846 through mathematical calculations by Urbain Le Verrier and John Couch Adams, who predicted its location based on gravitational perturbations of Uranus's orbit.</p>
+                            
+                            <h6 class="mt-3">Voyager 2 Flyby (1989)</h6>
+                            <p class="small">The only spacecraft to visit Neptune, providing most of our detailed knowledge about the planet.</p>
+                            
+                            <div class="mt-4">
+                                <span class="data-badge">16 known moons</span>
+                                <span class="data-badge">5 main rings</span>
+                                <span class="data-badge">-218°C surface temperature</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Planet Comparison -->
+    <section class="content-section bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Planet Comparison</h2>
+                    <p class="section-subtitle">Interactive tools to compare planetary characteristics</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="chart-container">
+                        <h4>Planet Size Comparison</h4>
+                        <canvas id="planetSizeChart"></canvas>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="chart-container">
+                        <h4>Distance from Sun</h4>
+                        <canvas id="planetDistanceChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-12" data-aos="fade-up">
+                    <div class="info-card">
+                        <h4>Interactive Planet Selector</h4>
+                        <div class="planet-selector mb-4">
+                            <select id="planetSelect" class="form-select">
+                                <option value="mercury">Mercury</option>
+                                <option value="venus">Venus</option>
+                                <option value="earth" selected>Earth</option>
+                                <option value="mars">Mars</option>
+                                <option value="jupiter">Jupiter</option>
+                                <option value="saturn">Saturn</option>
+                                <option value="uranus">Uranus</option>
+                                <option value="neptune">Neptune</option>
+                            </select>
+                        </div>
+                        <div id="planetInfo" class="planet-info-display">
+                            <!-- Planet information will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="cosmic-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-rocket me-2"></i>Cosmic Observatory</h5>
+                    <p>Exploring the infinite wonders of the universe through science and discovery.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Explore</h6>
+                    <ul class="footer-links">
+                        <li><a href="galaxies.html">Galaxies</a></li>
+                        <li><a href="stars.html">Stars</a></li>
+                        <li><a href="planets.html">Planets</a></li>
+                        <li><a href="sun.html">Sun</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Discover</h6>
+                    <ul class="footer-links">
+                        <li><a href="blackholes.html">Black Holes</a></li>
+                        <li><a href="nebulae.html">Nebulae</a></li>
+                        <li><a href="asteroids.html">Asteroids</a></li>
+                        <li><a href="cosmology.html">Cosmology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Learn</h6>
+                    <ul class="footer-links">
+                        <li><a href="exploration.html">Space Exploration</a></li>
+                        <li><a href="../index.html#timeline">Timeline</a></li>
+                        <li><a href="../index.html#features">Features</a></li>
+                        <li><a href="../index.html#stats">Statistics</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Resources</h6>
+                    <ul class="footer-links">
+                        <li><a href="#">NASA</a></li>
+                        <li><a href="#">ESA</a></li>
+                        <li><a href="#">Hubble</a></li>
+                        <li><a href="#">Webb Telescope</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2024 Cosmic Observatory. All rights reserved. | Exploring the universe, one discovery at a time.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Chart.js for Data Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="../js/main.js"></script>
+    
+    <!-- Page-specific JavaScript -->
+    <script>
+        // Planet data
+        const planetData = {
+            mercury: {
+                name: "Mercury",
+                distance: "0.39 AU",
+                diameter: "4,879 km",
+                mass: "0.055 Earth masses",
+                day: "59 Earth days",
+                year: "88 Earth days",
+                temperature: "-173°C to 427°C",
+                moons: "0",
+                description: "The smallest and innermost planet, with extreme temperature variations."
+            },
+            venus: {
+                name: "Venus",
+                distance: "0.72 AU",
+                diameter: "12,104 km",
+                mass: "0.815 Earth masses",
+                day: "243 Earth days",
+                year: "225 Earth days",
+                temperature: "462°C",
+                moons: "0",
+                description: "The hottest planet with a thick, toxic atmosphere."
+            },
+            earth: {
+                name: "Earth",
+                distance: "1.00 AU",
+                diameter: "12,756 km",
+                mass: "1.00 Earth masses",
+                day: "24 hours",
+                year: "365.25 days",
+                temperature: "-89°C to 58°C",
+                moons: "1",
+                description: "Our home planet, the only known world with life."
+            },
+            mars: {
+                name: "Mars",
+                distance: "1.52 AU",
+                diameter: "6,792 km",
+                mass: "0.107 Earth masses",
+                day: "24.6 hours",
+                year: "687 Earth days",
+                temperature: "-87°C to -5°C",
+                moons: "2",
+                description: "The Red Planet with evidence of ancient water activity."
+            },
+            jupiter: {
+                name: "Jupiter",
+                distance: "5.20 AU",
+                diameter: "142,984 km",
+                mass: "317.8 Earth masses",
+                day: "9.9 hours",
+                year: "11.9 Earth years",
+                temperature: "-108°C",
+                moons: "95",
+                description: "The largest planet, a gas giant with a Great Red Spot storm."
+            },
+            saturn: {
+                name: "Saturn",
+                distance: "9.58 AU",
+                diameter: "120,536 km",
+                mass: "95.2 Earth masses",
+                day: "10.7 hours",
+                year: "29.4 Earth years",
+                temperature: "-139°C",
+                moons: "146",
+                description: "Famous for its spectacular ring system."
+            },
+            uranus: {
+                name: "Uranus",
+                distance: "19.2 AU",
+                diameter: "51,118 km",
+                mass: "14.5 Earth masses",
+                day: "17.2 hours",
+                year: "84 Earth years",
+                temperature: "-197°C",
+                moons: "27",
+                description: "An ice giant that rotates on its side."
+            },
+            neptune: {
+                name: "Neptune",
+                distance: "30.1 AU",
+                diameter: "49,528 km",
+                mass: "17.1 Earth masses",
+                day: "16.1 hours",
+                year: "165 Earth years",
+                temperature: "-201°C",
+                moons: "16",
+                description: "The windiest planet with the fastest winds in the solar system."
+            }
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // Planet size comparison chart
+            const sizeCtx = document.getElementById('planetSizeChart');
+            if (sizeCtx) {
+                new Chart(sizeCtx, {
+                    type: 'bar',
+                    data: {
+                        labels: ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'],
+                        datasets: [{
+                            label: 'Diameter (km)',
+                            data: [4879, 12104, 12756, 6792, 142984, 120536, 51118, 49528],
+                            backgroundColor: [
+                                'rgba(142, 142, 147, 0.8)',
+                                'rgba(255, 198, 73, 0.8)',
+                                'rgba(107, 182, 255, 0.8)',
+                                'rgba(205, 92, 92, 0.8)',
+                                'rgba(216, 202, 157, 0.8)',
+                                'rgba(250, 178, 123, 0.8)',
+                                'rgba(79, 208, 231, 0.8)',
+                                'rgba(75, 112, 221, 0.8)'
+                            ]
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { labels: { color: '#ffffff' } }
+                        },
+                        scales: {
+                            y: {
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            },
+                            x: {
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Planet distance chart
+            const distanceCtx = document.getElementById('planetDistanceChart');
+            if (distanceCtx) {
+                new Chart(distanceCtx, {
+                    type: 'line',
+                    data: {
+                        labels: ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'],
+                        datasets: [{
+                            label: 'Distance from Sun (AU)',
+                            data: [0.39, 0.72, 1.00, 1.52, 5.20, 9.58, 19.2, 30.1],
+                            borderColor: 'rgba(108, 92, 231, 1)',
+                            backgroundColor: 'rgba(108, 92, 231, 0.2)',
+                            tension: 0.4
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: { labels: { color: '#ffffff' } }
+                        },
+                        scales: {
+                            y: {
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            },
+                            x: {
+                                ticks: { color: '#b2bec3' },
+                                grid: { color: 'rgba(108, 92, 231, 0.2)' }
+                            }
+                        }
+                    }
+                });
+            }
+
+            // Planet selector functionality
+            const planetSelect = document.getElementById('planetSelect');
+            const planetInfo = document.getElementById('planetInfo');
+
+            function updatePlanetInfo(planetKey) {
+                const planet = planetData[planetKey];
+                planetInfo.innerHTML = `
+                    <h5>${planet.name}</h5>
+                    <p>${planet.description}</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-2"><strong>Distance from Sun:</strong> ${planet.distance}</div>
+                            <div class="mb-2"><strong>Diameter:</strong> ${planet.diameter}</div>
+                            <div class="mb-2"><strong>Mass:</strong> ${planet.mass}</div>
+                            <div class="mb-2"><strong>Day Length:</strong> ${planet.day}</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-2"><strong>Year Length:</strong> ${planet.year}</div>
+                            <div class="mb-2"><strong>Temperature:</strong> ${planet.temperature}</div>
+                            <div class="mb-2"><strong>Moons:</strong> ${planet.moons}</div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            if (planetSelect && planetInfo) {
+                planetSelect.addEventListener('change', function() {
+                    updatePlanetInfo(this.value);
+                });
+                
+                // Initialize with Earth
+                updatePlanetInfo('earth');
+            }
+        });
+    </script>
+</body>
+</html>
+
