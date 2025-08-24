@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(10, 10, 15, 0.95);
     backdrop-filter: blur(20px);
     border-bottom: 1px solid rgba(108, 92, 231, 0.3);
-    padding: 1rem 0;
+    padding: 1rem 5rem;
     transition: var(--transition);
 }
 
