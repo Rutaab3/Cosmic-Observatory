@@ -31,6 +31,40 @@
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+/* Equal height cards in grid or flex containers */
+.card-grid, 
+.features-row, 
+.stats-row, 
+.info-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.card-grid > .feature-card,
+.card-grid > .stat-card,
+.card-grid > .info-card,
+.features-row > .feature-card,
+.stats-row > .stat-card,
+.info-row > .info-card {
+    flex: 1 1 300px;   /* Responsive equal width */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Make inner content stretch */
+.feature-card,
+.stat-card,
+.info-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
 /* Global Styles */
 * {
     margin: 0;
